@@ -291,19 +291,58 @@
 </style>
 
 <div class="contact-us">
-    <div class="text-top"> Get in touch!</div>
+    <div class="row">
+        <div class="col-md-7">
+            <div class="text-top col-md-12"> Get in touch!</div>
+            <form action="#" method="post" class="col-lg-12">
+        <div class="row">
+            <div class="col-md-12">
+                <div  class="form-group">
+                    <input type="text" class="form-control" name="full_name" placeholder="Full Name"/>
+                </div>
+            </div>
+        </div>
 
-    <form action="#" method="post">
-        <input type="text" name="full_name" placeholder="Full Name"/>
-        <input type="email" name="email" placeholder="Email"/>
-        <input type="tel" name="phone_number" placeholder="Phone Number"/>
-        <textarea> Message</textarea>
-        <button type="submit" class="btn btn-primary">SUBMIT</button>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input type="email" class="form-control" name="email" placeholder="Email"/>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input type="email" class="form-control" name="email" placeholder="Phone Number"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="Message"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div  class="form-group">
+                    <button type="submit" class="btn btn-primary ">SUBMIT</button>
+                </div>
+            </div>
+        </div>
     </form>
+        </div>
+    </div>
 
-    <div class="footer">
-        <span class="pull-left"> All Rights Reserved @ Brand Reach| Copyright 2015</span>
-        <span class="pull-right"> <i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i></span>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="footer">
+            <span class="pull-left"> All Rights Reserved @ Brand Reach| Copyright 2015</span>
+            <span class="pull-right"> <i class="fa fa-facebook"></i> &nbsp; <i class="fa fa-twitter"></i></span>
+        </div>
     </div>
 </div>
 
@@ -318,6 +357,13 @@
         color: #ffffff;
         font-size: 30px;
         font-weight: 100;
+    }
+
+    .footer{
+        height: 40px;
+        padding: 10px 120px 0;
+        background-color: rgba(0,0,0, .6);
+        color: #ffffff;
     }
 </style>
 
