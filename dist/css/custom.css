@@ -1,0 +1,10 @@
+.form-control {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.form-control + .glyphicon {
+    position: absolute;
+    left: 0;
+    padding: 8px 27px;
+}
