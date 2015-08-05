@@ -1,0 +1,20 @@
+.table > thead > tr.payment-header > th {
+    background-color: #eaeaea;
+}
+
+.payment-div{
+    margin: 20px;
+}
+.wrapper > .payment-div > .btn-download, .btn-withdraw {
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    background-color: #f8c102 ;
+}
+.wrapper > .payment-div > .btn-download {
+}
+.payment-div > .payment-balance {
+    font-size: 15px;
+    margin-left: 20%;
+}
