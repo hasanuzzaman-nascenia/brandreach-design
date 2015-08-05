@@ -5,17 +5,26 @@
 
 .table > thead > tr.payment-header > th {
     background-color: #eaeaea;
+    color: #666666;
 }
 
 .payment-div {
     margin: 20px;
 }
 
-.btn-download, .btn-withdraw {
+.btn-download {
     font-size: 20px;
     color: white;
-    margin: 5px;
-    padding: 10px;
+    margin: 25px 5px 5px 5px;
+    padding: 10px 20px 10px 20px;
+    background-color: #f8c102;
+}
+
+.btn-withdraw {
+    font-size: 20px;
+    color: white;
+    margin: 25px 5px 5px 5px;
+    padding: 10px 30px 10px 30px;
     background-color: #f8c102;
 }
 
@@ -27,7 +36,7 @@
     font-size: 15px;
     margin-left: 20%;
     display: block;
-    padding: 10px 5px 0 0;
+    padding: 10px 10px 0 0;
 }
 
 #transaction-tabs {
@@ -50,3 +59,47 @@
     /*box-shadow: 0 1px 1px rgba(0,0,0,.05);*/
     padding: 35px 20px 0px 20px;
 }
+
+.status-circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.status-paid {
+    background-color: #33cd31;
+}
+
+.status-pending {
+    background-color: #fdc75d;
+}
+
+.status-failed {
+    background-color: #ed1b26;
+}
+
+
+th:nth-child(1), td:nth-child(1) {
+    text-align: center ;
+}
+
+.table > thead >.payment-header > th {
+    vertical-align: middle;
+}
+
+.squaredFour input {
+    cursor: pointer;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    background: #dddddd;
+    background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -o-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -ms-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 );
+}
+
