@@ -1,20 +1,52 @@
+.content-wrapper {
+    height: 100%;
+    background-color: #f9f9f9;
+}
+
 .table > thead > tr.payment-header > th {
     background-color: #eaeaea;
 }
 
-.payment-div{
+.payment-div {
     margin: 20px;
 }
-.wrapper > .payment-div > .btn-download, .btn-withdraw {
+
+.btn-download, .btn-withdraw {
     font-size: 20px;
     color: white;
     margin: 5px;
     padding: 10px;
-    background-color: #f8c102 ;
+    background-color: #f8c102;
 }
-.wrapper > .payment-div > .btn-download {
+
+.payment-button-set {
+    text-align: right;
 }
+
 .payment-div > .payment-balance {
     font-size: 15px;
     margin-left: 20%;
+    display: block;
+    padding: 10px 5px 0 0;
+}
+
+#transaction-tabs {
+    font-size: 18px;
+}
+.glyphicon-credit-card {
+    color: #00AEEF;
+    font-size: 24px;
+    vertical-align: bottom;
+    padding: 5px 5px 0px 5px;
+}
+.panel-payment {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    /*-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);*/
+    /*box-shadow: 0 1px 1px rgba(0,0,0,.05);*/
+    padding: 35px 20px 0px 20px;
 }
