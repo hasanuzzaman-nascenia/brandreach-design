@@ -86,6 +86,11 @@ th:nth-child(1), td:nth-child(1) {
 
 .table > thead >.payment-header > th {
     vertical-align: middle;
+    border-right-color: #dddddd;
+}
+
+.table > tbody > tr > td {
+    border-right-color: #dddddd;
 }
 
 .squaredFour input {
