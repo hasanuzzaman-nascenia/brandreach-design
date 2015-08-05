@@ -83,19 +83,20 @@
             </ul>
         </section>
         <!-- /.sidebar -->
+        </section>
     </aside>
 
     <!-- Content Wrapper. Contains page content -->
-    <div class="payment-div">
-        <button class="btn btn-download">Download Invoice</button>
-        <button class="btn btn-withdraw">Withdraw</button>
-        <span class="nav payment-balance"> Available Balance:  $2500 USD</span>
-    </div>
-    </br>
+
     <div class="content-wrapper">
-        <div class="panel panel-info">
+        <div class="payment-div">
+            <button class="btn btn-download">Download Invoice</button>
+            <button class="btn btn-withdraw">Withdraw</button>
+            <span class="nav payment-balance"> Available Balance:  $2500 USD</span>
+        </div>
+        <div class="content">
                 <ul class="nav nav-tabs" id="myTab">
-                    <li class= "active"><a href="#payment"> Transactions </a></li>
+                    <li class= "active"><a href="#payment"> <span class="glyphicon glyphicon-credit-card" style="color: #00AEEF; font-size: 24px; vertical-align: bottom;"></span> Transactions </a></li>
                 </ul>
                 <div class="tab-content">
                     <div id="payment" class="tab-pane fade in active">
@@ -208,7 +209,7 @@
         </div>
     </div>
 
-    </section><!-- /.content -->
+    <!-- /.content -->
 </div><!-- /.content-wrapper -->
 <footer class="main-footer">
     <div class="pull-right hidden-xs">
@@ -244,3 +245,9 @@
 </script>
 </body>
 </html>
+
+        <style>
+            .content-wrapper {
+                height: 100%;
+            }
+        </style>
