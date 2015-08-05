@@ -146,9 +146,11 @@ ul.menu-item li {
     width: 18%;
 }
 .contact-us {
-    padding: 50px 100px;
     background-image: url("../images/Pic3.png");
     background-size: 100%;
+}
+.contact-form{
+    padding: 50px 100px;
 }
 
 .contact-us .text-top {
@@ -160,6 +162,6 @@ ul.menu-item li {
 .footer{
     height: 40px;
     padding: 10px 120px 0;
-    background-color: rgba(0,0,0, .6);
+    background-color: rgba(60, 60, 60, 0.5);
     color: #ffffff;
 }
