@@ -43,3 +43,10 @@
 .padding{
     padding-bottom: 5px;
 }
+.text-color-follower{
+    color: #0063dc;
+}
+.info-box-content{
+    padding: 5px 10px;
+    margin-left: 50px;
+}
