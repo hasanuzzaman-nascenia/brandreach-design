@@ -1,0 +1,165 @@
+.header {
+    color: black;
+    font-weight: bold;
+    height: 100px;
+    padding: 26px 100px;
+}
+
+.header span {
+    display: block;
+}
+
+.logo {
+    float: left;
+}
+
+.links {
+    float: right;
+}
+
+ul.menu-item {
+    list-style: none;
+    float: left;
+}
+
+ul.menu-item li {
+    display: inline;
+    padding: 0 20px;
+}
+
+.menu-item li a {
+    color: #333333;
+}
+
+.menu-item li.active a {
+    color: #00AEEF;
+}
+
+.btn-theme {
+    background-color: #00aeef;
+    border: medium none;
+}
+.identity {
+    background-image: url("../images/Pic1.png");
+    background-size: 100% auto;
+    height: 680px;
+}
+
+.identity .text-upper {
+    font-size: 80px;
+    font-weight: 100;
+    padding-left: 100px;
+    padding-top: 160px;
+}
+
+.identity .text-lower {
+    /*padding-left: 100px;*/
+    color: #00aeef;
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 100px;
+}
+
+.statistics {
+    background: #333333 none repeat scroll 0 0;
+    color: white;
+    height: 300px;
+    padding: 50px 100px 100px;
+}
+
+.statistics .text-top {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.statistics .stats-block {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.stats-block span {
+    display: block;
+}
+
+.stats-block .numeric {
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.stats-block .textual {
+    font-size: 24px;
+}
+.about-us {
+    background-image: url("../images/Pic2.png");
+    background-size: 100% auto;
+    padding: 50px 100px;
+    height: 730px;
+}
+
+.about-us .text-top {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+.about-us .text-description {
+    color: white;
+    font-size: 65px;
+    font-weight: 100;
+}
+
+.about-us-block {
+    display: block;
+    float: left;
+    margin-top: 50px;
+    width: 18%;
+}
+
+.about-us-block span {
+    display: block;
+    text-align: left;
+}
+
+.about-us-block .textual {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10%;
+    text-align: left;
+}
+.brands {
+    padding: 50px 100px 200px 100px;
+}
+
+.brands .text-top {
+    font-size: 30px;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+.brands-block span {
+    display: block;
+    float: left;
+    text-align: left;
+    width: 18%;
+}
+.contact-us {
+    padding: 50px 100px;
+    background-image: url("../images/Pic3.png");
+    background-size: 100%;
+}
+
+.contact-us .text-top {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.footer{
+    height: 40px;
+    padding: 10px 120px 0;
+    background-color: rgba(0,0,0, .6);
+    color: #ffffff;
+}
