@@ -20,6 +20,7 @@
          folder instead of downloading all of them to reduce the load. -->
     <link href="dist/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css"/>
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="flag-icon/css/flag-icon.min.css" rel="stylesheet" type="text/css"/>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,7 +31,7 @@
 </head>
 <body class="skin-blue sidebar-mini">
 <div class="wrapper">
-    <header class="main-header">
+    <header class="main-header visible-xs">
         <nav class="navbar navbar-static-top" role="navigation">
             <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
                 <span class="sr-only">Toggle navigation</span>
@@ -87,7 +88,7 @@
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fa fa-cog"></i> <span>SETTINGS</span>
+                        <i class="fa fa-cog text-black"></i> <span>SETTINGS</span>
                     </a>
                 </li>
 
@@ -98,16 +99,18 @@
     <div class="content-wrapper">
         <section>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-1 col-md-offset-5">
                     <span>About</span>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-3 ">
                     <p> Welcome back, Bhanu Prasad!</p>
                 </div>
 
-                <div class="col-md-4">
-                    <span>icon</span>
+                <div class="col-md-1">
+                    <a href="javascript:void(0);">
+                        <span><i class="fa fa-power-off"></i> </span>
+                    </a>
                 </div>
 
             </div>
@@ -121,7 +124,7 @@
                     <form action="#" method="get" class="">
                         <div class="row">
                             <div class="col-md-8">
-                                <input class="form-control rounded-input-box" type="search" />
+                                <input class="form-control rounded-input-box" type="search"/>
                                 <span class="glyphicon glyphicon-search"></span>
 
                             </div>
@@ -181,21 +184,34 @@
             </div>
 
             <div class="row">
-                <div class="col-md-12">
-                    <div class="box">
-                        <div class="box-body">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="pad">
-                                        <!-- Map will be created here -->
-                                        <div id="world-map-markers" style="height: 325px;"></div>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="box">
+                    <div class="box-body">
+                        <div class="pad">
+                            <!-- Map will be created here -->
+                            <div id="world-map-markers" style="height: 325px;"></div>
                         </div>
                     </div>
                 </div>
+                <section>
+                    <h4> STATISTICS GENDER</h4>
 
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-4">
+                           Units in 1000s
+                        </div>
+                        <div class="col-md-2 center-block">
+                            <span class="square-box bg-color-blue"></span> <span class="padding">Female</span>
+                        </div>
+                        <div class="col-md-1">
+                            <span class="square-box bg-color-blue"></span> Male
+                        </div>
+                        <div class="col-md-3">
+                            <select name="" id="">
+                                <option value="">This Week</option>
+                            </select>
+                        </div>
+                    </div>
+                </section>
                 <!-- Main row -->
                 <div class="row">
                     <div class="col-md-12">
@@ -213,104 +229,74 @@
             </div>
 
             <!-- TABLE: LATEST ORDERS -->
+            <h3 class="box-title">STATISTIC BY COUNTRY/CITY</h3>
+
             <div class="box box-info">
                 <div class="box-header with-border">
-                    <h3 class="box-title">Latest Orders</h3>
 
-                    <div class="box-tools pull-right">
-                        <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-                        <button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-                    </div>
                 </div>
-                <!-- /.box-header -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+                <div class="table-responsive">
+                    <table class="table no-margin table-striped">
+                        <thead>
+                        <tr>
+                            <th>
+                                <select class="form-control" name="VIEW BY COUNTRY">
+                                    <option value="volvo">India</option>
+                                    <option value="saab">Australia</option>
+                                    <option value="opel">UAE</option>
+                                    <option value="audi">UK</option>
+                                </select>
+                            </th>
+                            <th><i class=" text-danger fa fa-heart-o"></i> &nbsp;Followers</th>
+                            <th><i class="fa fa-comment-o"></i> &nbsp;Post Reach</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td><span class="flag-icon flag-icon-in"></span> &nbsp; Bangladesh</td>
+                            <td>20,348</td>
+                            <td>1,00000</td>
+
+                        </tr>
+                        <tr>
+                            <td><span class="flag-icon flag-icon-in"></span> &nbsp; Bangladesh</td>
+                            <td>20,348</td>
+                            <td>1,00000</td>
+
+                        </tr>
+                        <tr>
+                            <td><span class="flag-icon flag-icon-in"></span> &nbsp; Bangladesh</td>
+                            <td>20,348</td>
+                            <td>1,00000</td>
+
+                        </tr>
+                        <tr>
+                            <td><span class="flag-icon flag-icon-in"></span> &nbsp; Bangladesh</td>
+                            <td>20,348</td>
+                            <td>1,00000</td>
+
+                        </tr>
+                        <tr>
+                            <td><span class="flag-icon flag-icon-in"></span> &nbsp; Bangladesh</td>
+                            <td>20,348</td>
+                            <td>1,00000</td>
+
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- @below section is needed for showing map -->
+            <div class="col-md-4">
                 <div class="box-body">
-                    <div class="table-responsive">
-                        <table class="table no-margin">
-                            <thead>
-                            <tr>
-                                <th>Order ID</th>
-                                <th>Item</th>
-                                <th>Status</th>
-                                <th>Popularity</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td><a href="pages/examples/invoice.html">OR9842</a></td>
-                                <td>Call of Duty IV</td>
-                                <td><span class="label label-success">Shipped</span></td>
-                                <td>
-                                    <div class="sparkbar" data-color="#00a65a" data-height="20">90,80,90,-70,61,-83,63
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><a href="pages/examples/invoice.html">OR1848</a></td>
-                                <td>Samsung Smart TV</td>
-                                <td><span class="label label-warning">Pending</span></td>
-                                <td>
-                                    <div class="sparkbar" data-color="#f39c12" data-height="20">90,80,-90,70,61,-83,68
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><a href="pages/examples/invoice.html">OR7429</a></td>
-                                <td>iPhone 6 Plus</td>
-                                <td><span class="label label-danger">Delivered</span></td>
-                                <td>
-                                    <div class="sparkbar" data-color="#f56954" data-height="20">90,-80,90,70,-61,83,63
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><a href="pages/examples/invoice.html">OR7429</a></td>
-                                <td>Samsung Smart TV</td>
-                                <td><span class="label label-info">Processing</span></td>
-                                <td>
-                                    <div class="sparkbar" data-color="#00c0ef" data-height="20">90,80,-90,70,-61,83,63
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><a href="pages/examples/invoice.html">OR1848</a></td>
-                                <td>Samsung Smart TV</td>
-                                <td><span class="label label-warning">Pending</span></td>
-                                <td>
-                                    <div class="sparkbar" data-color="#f39c12" data-height="20">90,80,-90,70,61,-83,68
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><a href="pages/examples/invoice.html">OR7429</a></td>
-                                <td>iPhone 6 Plus</td>
-                                <td><span class="label label-danger">Delivered</span></td>
-                                <td>
-                                    <div class="sparkbar" data-color="#f56954" data-height="20">90,-80,90,70,-61,83,63
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><a href="pages/examples/invoice.html">OR9842</a></td>
-                                <td>Call of Duty IV</td>
-                                <td><span class="label label-success">Shipped</span></td>
-                                <td>
-                                    <div class="sparkbar" data-color="#00a65a" data-height="20">90,80,90,-70,61,-83,63
-                                    </div>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-
-                <!-- @below section is needed for showing map -->
-                <div class="col-md-4">
-                    <div class="box-body">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="chart-responsive hidden">
-                                    <canvas id="pieChart" height="150"></canvas>
-                                </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="chart-responsive hidden">
+                                <canvas id="pieChart" height="150"></canvas>
                             </div>
                         </div>
                     </div>

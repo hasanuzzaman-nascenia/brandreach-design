@@ -1,3 +1,9 @@
+.content-wrapper{
+    padding: 10px 0;
+    background-color: #ecf0f5;
+    z-index: 800;
+}
+
 .form-control {
     padding-right: 30px;
     padding-left: 30px;
@@ -10,8 +16,8 @@
 }
 
 .btn-circle {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     /*line-height: 40px;*/
     padding:0;
     border-radius: 50%;
@@ -19,4 +25,21 @@
 
 .rounded-input-box{
     border-radius: 20px !important ;
+}
+
+.square-box{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+.bg-color-blue{
+    background: #4D97C2;
+}
+
+.bg-color-white{
+    background: #D2D6DE;
+}
+
+.padding{
+    padding-bottom: 5px;
 }
