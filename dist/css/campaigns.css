@@ -1,0 +1,129 @@
+.content-wrapper {
+    height: 100%;
+    background-color: #ecf0f5;
+}
+
+.header-bottom-margin{
+    margin-top: 3px;
+    border-bottom: 3px solid;
+    color: #d5d5d5;
+}
+
+.table > thead > tr.payment-header > th {
+    background-color: #eaeaea;
+    color: #666666;
+}
+
+.payment-div {
+    margin: 0px 20px 20px 20px;
+}
+
+.btn-export {
+    font-size: 20px;
+    color: white;
+    margin: 25px 5px 5px 5px;
+    padding: 5px 50px 5px 50px;
+    background-color: #f8c102;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+
+.btn-age {
+    font-size: 20px;
+    color: grey;
+    margin: 5px 5px 5px 5px;
+    padding: 3px 50px 3px 62px;
+    background-color: #ecf0f5;
+    border: 1px solid;
+}
+
+.payment-button-set {
+    text-align: right;
+}
+
+.payment-div > .payment-balance {
+    font-size: 15px;
+    margin-left: 20%;
+    display: block;
+    padding: 10px 10px 0 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#transaction-tabs {
+    font-size: 18px;
+}
+
+.performance-tab {
+    color: #00AEEF;
+    font-size: 24px;
+    vertical-align: bottom;
+    padding: 5px 5px 0px 5px;
+}
+
+.engagement-tab {
+    color: #00AEEF;
+    font-size: 24px;
+    vertical-align: bottom;
+    padding: 5px 5px 0px 5px;
+}
+
+.panel-payment {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    /*-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);*/
+    /*box-shadow: 0 1px 1px rgba(0,0,0,.05);*/
+    padding: 35px 20px 0px 20px;
+}
+
+.status-circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.status-paid {
+    background-color: #33cd31;
+}
+
+.status-pending {
+    background-color: #fdc75d;
+}
+
+.status-failed {
+    background-color: #ed1b26;
+}
+
+
+th:nth-child(1), td:nth-child(1) {
+    text-align: center ;
+}
+
+.table > thead >.payment-header > th {
+    vertical-align: middle;
+    border-right-color: #dddddd;
+}
+
+.table > tbody > tr > td {
+    border-right-color: #dddddd;
+}
+
+.squaredFour input {
+    cursor: pointer;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    background: #cfcfcf;
+    background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -o-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -ms-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 );
+}
+
