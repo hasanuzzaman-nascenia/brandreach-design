@@ -3,13 +3,19 @@
     background-color: #f9f9f9;
 }
 
+.header-bottom-margin{
+    margin-top: 3px;
+    border-bottom: 3px solid;
+    color: #d5d5d5;
+}
+
 .table > thead > tr.payment-header > th {
     background-color: #eaeaea;
     color: #666666;
 }
 
 .payment-div {
-    margin: 20px;
+    margin: 0px 20px 20px 20px;
 }
 
 .btn-download {
