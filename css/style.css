@@ -46,10 +46,45 @@
 .text-color-follower{
     color: #0063dc;
 }
+/* info box style */
 .info-box-content{
-    padding: 5px 10px;
-    margin-left: 50px;
+    margin: 0;
+    /*padding-left: 25%;*/
+    text-align: center;
 }
+
+@media  (max-width: 1199px){
+    .info-box-content{
+        padding-left: 15%;
+    }
+}
+
+.info-box-text{
+    padding: 0;
+    margin: 0;
+
+}
+
+.info-box-data{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+.total-follower-data-color{
+    color: #00AEEE;
+
+}
+
+.total-post-data-color{
+    color: #00ff00;
+
+}
+
+.post-reach-data-color{
+    color: #eeee00;
+}
+
+/* end info box style */
 .profile-image{
     width: 100px;
 }
@@ -60,4 +95,20 @@
 .hr{
     /*width: 80%;*/
     color: #565656;
+}
+.chart-info{
+    padding-left: 5%;
+}
+@media (max-width: 500px) {
+    .chart-info {
+        padding-left: 2%;
+    }
+}
+
+/* side bar style */
+
+.skin-blue .sidebar-menu>li:hover>a{
+    color: #FFFFFF;
+    background-color: #FF004c;
+    border-left-style: hidden;
 }

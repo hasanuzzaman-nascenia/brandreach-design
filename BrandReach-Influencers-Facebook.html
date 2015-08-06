@@ -42,7 +42,7 @@
     <aside class="main-sidebar">
         <section class="sidebar">
             <div class="center-block profile-info">
-                    <span class="fa fa-camera"></span>
+                <a href="javascript:void(0)"><span class="fa fa-camera"></span></a>
                     <img src="dist/img/user2-160x160.jpg" class="img-circle profile-image center-block" alt="User Image"/>
                 <div class="info">
                     <p class="text-center">Bhanu Prasad Madal </p>
@@ -90,7 +90,6 @@
                         <i class="fa fa-cog text-black"></i> <span>SETTINGS</span>
                     </a>
                 </li>
-
             </ul>
         </section>
     </aside>
@@ -99,35 +98,35 @@
         <section>
             <div class="row">
                 <div class="col-md-1 col-sm-2 col-xs-3 col-md-offset-5 col-sm-offset-3 col-xs-offset-0">
-                    <span>ABOUT</span>
+                    <p class="pull-right">ABOUT</p>
                 </div>
 
-                <div class="col-md-3 col-sm-4 col-xs-7">
-                    <p> Welcome back, Bhanu Prasad!</p>
+                <div class="col-md-3 col-sm-5 col-xs-7">
+                    <p class="pull-right"> Welcome back, Bhanu Prasad!</p>
                 </div>
 
-                <div class="col-md-1 col-xs-2">
+                <div class="col-md-1 col-sm-2 col-xs-2 ">
                     <a href="javascript:void(0);">
-                        <span><i class="fa fa-power-off"></i> </span>
+                        <p class="text-black"><i class="fa fa-power-off"></i> </p>
                     </a>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-md-3 col-xs-3">
-                    <a href="#"><img class="image img-responsive" src="images/Logo.png"></a>
+                    <a href="#"><img class="image img-responsive center-block" src="images/Logo.png"></a>
                 </div>
 
                 <div class="col-md-9 col-xs-9">
                     <!-- search form -->
                     <form action="#" method="get" class="">
                         <div class="row">
-                            <div class="col-md-8 col-xs-8">
+                            <div class="col-md-8 col-sm-9 col-xs-9">
                                 <input class="form-control rounded-input-box" type="search"/>
                                 <span class="glyphicon glyphicon-search"></span>
 
                             </div>
-                            <div class="col-md-3 col-xs-4">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <button type="submit" class="btn btn-primary btn-circle">go</button>
                             </div>
                         </div>
@@ -141,39 +140,40 @@
         <section class="content">
             <!-- Info boxes -->
             <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="info-box">
                         <div class="info-box-content">
-                            <span class="info-box-text text-color-follower "><h1>24,000</h1></span>
-                            <span class="info-box-number">TOTAL FOLLOWERS</span>
+                            <p class="info-box-data total-follower-data-color">24,000</p>
+                            <p class="info-box-text ">TOTAL FOLLOWERS</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="info-box">
                         <div class="info-box-content">
-                            <span class="info-box-text"><h1>7,582</h1></span>
-                            <span class="info-box-number">DAYLY PAGE VIEWS</span>
+                            <p class="info-box-data page-view-data-color">7,582</p>
+                            <p class="info-box-text">DAILY PAGE VIEWS</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- fix for small devices only -->
                 <div class="clearfix visible-sm-block"></div>
+                <div class="clearfix visible-xs-block"></div>
 
-                <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="info-box">
                         <div class="info-box-content">
-                            <span class="info-box-text"><h1>150</h1></span>
-                            <span class="info-box-number">TOTAL POSTS</span>
+                            <p class="info-box-data total-post-data-color">150</p>
+                            <p class="info-box-text">TOTAL POSTS</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="info-box">
                         <div class="info-box-content">
-                            <span class="info-box-text"><h1>4,260</h1></span>
-                            <span class="info-box-number">POST REACH</span>
+                            <p class="info-box-data post-reach-data-color">4,260</p>
+                            <p class="info-box-text">POST REACH</p>
                         </div>
                     </div>
                 </div>
@@ -188,20 +188,20 @@
                         </div>
                     </div>
                 </div>
-                <section>
+                <section class="chart-info">
                     <h4> STATISTICS GENDER</h4>
 
                     <div class="row">
-                        <div class="col-md-2 col-md-offset-4">
+                        <div class="col-md-2 col-sm-3 col-xs-3 col-md-offset-4 col-sm-offset-2 col-xs-offset-0">
                            Units in 1000s
                         </div>
-                        <div class="col-md-2 center-block">
+                        <div class="col-md-2 col-sm-2 col-xs-2 center-block">
                             <span class="square-box bg-color-blue"></span> <span class="padding">Female</span>
                         </div>
-                        <div class="col-md-1">
+                        <div class="col-md-2 col-sm-2 col-xs-2">
                             <span class="square-box bg-color-blue"></span> Male
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-2 col-sm-3 col-xs-3">
                             <select name="" id="">
                                 <option value="">This Week</option>
                             </select>
@@ -229,62 +229,57 @@
 
             <div class="box box-info">
                 <div class="box-header with-border">
-
+                </div>
+                <div class="box-body">
+                    <div class="table-responsive">
+                        <table class="table no-margin table-striped">
+                            <thead>
+                            <tr>
+                                <th>
+                                    <select class="form-control" name="VIEW BY COUNTRY">
+                                        <option value="volvo">India</option>
+                                        <option value="saab">Australia</option>
+                                        <option value="opel">UAE</option>
+                                        <option value="audi">UK</option>
+                                    </select>
+                                </th>
+                                <th><i class=" text-danger fa fa-heart-o"></i> &nbsp;Followers</th>
+                                <th><i class="fa fa-comment-o"></i> &nbsp;Post Reach</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td><span class="flag-icon flag-icon-in"></span> &nbsp; Bangladesh</td>
+                                <td>20,348</td>
+                                <td>1,00000</td>
+                            </tr>
+                            <tr>
+                                <td><span class="flag-icon flag-icon-in"></span> &nbsp; Bangladesh</td>
+                                <td>20,348</td>
+                                <td>1,00000</td>
+                            </tr>
+                            <tr>
+                                <td><span class="flag-icon flag-icon-in"></span> &nbsp; Bangladesh</td>
+                                <td>20,348</td>
+                                <td>1,00000</td>
+                            </tr>
+                            <tr>
+                                <td><span class="flag-icon flag-icon-in"></span> &nbsp; Bangladesh</td>
+                                <td>20,348</td>
+                                <td>1,00000</td>
+                            </tr>
+                            <tr>
+                                <td><span class="flag-icon flag-icon-in"></span> &nbsp; Bangladesh</td>
+                                <td>20,348</td>
+                                <td>1,00000</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
             <!-- /.box-header -->
-            <div class="box-body">
-                <div class="table-responsive">
-                    <table class="table no-margin table-striped">
-                        <thead>
-                        <tr>
-                            <th>
-                                <select class="form-control" name="VIEW BY COUNTRY">
-                                    <option value="volvo">India</option>
-                                    <option value="saab">Australia</option>
-                                    <option value="opel">UAE</option>
-                                    <option value="audi">UK</option>
-                                </select>
-                            </th>
-                            <th><i class=" text-danger fa fa-heart-o"></i> &nbsp;Followers</th>
-                            <th><i class="fa fa-comment-o"></i> &nbsp;Post Reach</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td><span class="flag-icon flag-icon-in"></span> &nbsp; Bangladesh</td>
-                            <td>20,348</td>
-                            <td>1,00000</td>
 
-                        </tr>
-                        <tr>
-                            <td><span class="flag-icon flag-icon-in"></span> &nbsp; Bangladesh</td>
-                            <td>20,348</td>
-                            <td>1,00000</td>
-
-                        </tr>
-                        <tr>
-                            <td><span class="flag-icon flag-icon-in"></span> &nbsp; Bangladesh</td>
-                            <td>20,348</td>
-                            <td>1,00000</td>
-
-                        </tr>
-                        <tr>
-                            <td><span class="flag-icon flag-icon-in"></span> &nbsp; Bangladesh</td>
-                            <td>20,348</td>
-                            <td>1,00000</td>
-
-                        </tr>
-                        <tr>
-                            <td><span class="flag-icon flag-icon-in"></span> &nbsp; Bangladesh</td>
-                            <td>20,348</td>
-                            <td>1,00000</td>
-
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
 
             <!-- @below section is needed for showing map -->
             <div class="col-md-4">
