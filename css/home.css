@@ -39,9 +39,12 @@ ul.menu-item li {
     background-color: #00aeef;
     border: medium none;
 }
+
 .identity {
     background-image: url("../images/Pic1.png");
-    background-size: 100% auto;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
     height: 680px;
 }
 
@@ -50,6 +53,7 @@ ul.menu-item li {
     font-weight: 100;
     padding-left: 100px;
     padding-top: 160px;
+    padding-bottom: 15px;
 }
 
 .identity .text-lower {
@@ -60,11 +64,18 @@ ul.menu-item li {
     padding-left: 100px;
 }
 
+@media screen and (max-width: 650px) {
+    .identity .text-upper {
+        font-size: 55px;
+
+    }
+}
+
 .statistics {
     background: #333333 none repeat scroll 0 0;
     color: white;
-    height: 300px;
-    padding: 50px 100px 100px;
+    /*height: 300px;*/
+    padding: 50px 50px 50px 100px;
 }
 
 .statistics .text-top {
@@ -73,9 +84,21 @@ ul.menu-item li {
 }
 
 .statistics .stats-block {
-    display: block;
-    float: left;
-    width: 25%;
+    display: inline-block;
+    width: 24%;
+    text-align: left;
+}
+@media screen and (max-width: 900px) {
+    .statistics .stats-block {
+        width: 49%;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .statistics .stats-block {
+        width: 90%;
+        text-align: center
+    }
 }
 
 .stats-block span {
@@ -90,11 +113,14 @@ ul.menu-item li {
 .stats-block .textual {
     font-size: 24px;
 }
+
 .about-us {
     background-image: url("../images/Pic2.png");
-    background-size: 100% auto;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
     padding: 50px 100px;
-    height: 730px;
+    /*height: 730px;*/
 }
 
 .about-us .text-top {
@@ -110,9 +136,16 @@ ul.menu-item li {
     font-weight: 100;
 }
 
+@media screen and (max-width: 1010px) {
+    .about-us .text-description {
+        font-size: 50px;
+    }
+}
+
 .about-us-block {
-    display: block;
-    float: left;
+    display: inline-block;
+    /*float: left;*/
+    vertical-align: top;
     margin-top: 50px;
     width: 18%;
 }
@@ -129,8 +162,40 @@ ul.menu-item li {
     padding-left: 10%;
     text-align: left;
 }
+
+@media screen and (max-width: 900px) {
+    .about-us {
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .about-us-block {
+        width: 30%;
+    }
+    .about-us-block-container {
+        text-align: center;
+    }
+
+    .about-us .text-description {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .about-us .text-description {
+        font-size: 25px;
+    }
+    .about-us-block img {
+        width: 75px;
+    }
+    .about-us-block .textual {
+        font-size: 12px;
+    }
+}
+
 .brands {
-    padding: 50px 100px 200px 100px;
+    padding: 50px 100px 50px 100px;
 }
 
 .brands .text-top {
@@ -140,16 +205,43 @@ ul.menu-item li {
 }
 
 .brands-block span {
-    display: block;
-    float: left;
+    display: inline-block;
+    /*float: left;*/
     text-align: left;
     width: 18%;
+    vertical-align: top;
 }
+/*//brand*/
+@media screen and (max-width: 900px) {
+    .brands {
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .brands-block span {
+        width: 30%;
+    }
+    .brands-block {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .brands-block span img {
+        width: 75px;
+    }
+}
+
+
 .contact-us {
     background-image: url("../images/Pic3.png");
-    background-size: 100%;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
 }
-.contact-form{
+
+.contact-form {
     padding: 50px 100px;
 }
 
@@ -159,9 +251,37 @@ ul.menu-item li {
     font-weight: 100;
 }
 
-.footer{
+.footer {
     height: 40px;
     padding: 10px 120px 0;
     background-color: rgba(60, 60, 60, 0.5);
     color: #ffffff;
+}
+
+@media screen and (max-width: 600px){
+    .footer {
+        height: 80px;
+    }
+
+    .footer span {
+        display: block;
+        margin: 10px;
+        float: none !important;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .footer span.pull-left {
+        position: absolute;
+        left: 5%;
+    }
+
+    .footer span.pull-right {
+        position: absolute;
+        margin-top: 40px;
+        text-align: center;
+        left: 40%;
+    }
+
 }
