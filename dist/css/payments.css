@@ -115,3 +115,31 @@ th:nth-child(1), td:nth-child(1) {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 );
 }
 
+@media
+only screen and (max-width: 380px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+        border: 1px solid #dddddd;
+    }
+
+    .btn-download {
+        font-size: 10px;
+        color: white;
+        margin: 15px 3px 3px 5px;
+        padding: 5px 10px 5px 10px;
+    }
+
+    .btn-withdraw {
+        font-size: 10px;
+        color: white;
+        margin: 15px 3px 3px 3px;
+        padding: 5px 15px 5px 15px;
+    }
+
+    .payment-div > .payment-balance {
+        font-size: 8px;
+        padding: 5px 5px 0 0;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+}
+
