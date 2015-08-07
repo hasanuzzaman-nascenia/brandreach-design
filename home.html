@@ -38,17 +38,25 @@
 
 <div class="header">
     <span class="logo"> <img src="images/Logo.png" alt="logo"/></span>
-    <span class="links">
-        <ul class="menu-item">
-            <li class="active"><a href="#">INFLUENCERS <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">BRANDS</a></li>
-            <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">LOGIN</a></li>
-            <li>
-                <button class="btn btn-primary btn-theme">SIGN UP FREE</button>
-            </li>
-        </ul>
-    </span>
+    <nav class="navbar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav pull-right">
+                <li class="active"><a href="#">INFLUENCERS <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">BRANDS</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">LOGIN</a></li>
+                <li ><a href="#" class=" btn btn-xs btn-theme text-white">SIGN UP FREE</a></li>
+
+            </ul>
+        </div>
+    </nav>
 </div>
 
 <div class="identity">
@@ -177,7 +185,8 @@
         <span class="pull-right"> <i class="fa fa-facebook"></i> &nbsp; <i class="fa fa-twitter"></i></span>
 
     </div>
-
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </div>
 
 
