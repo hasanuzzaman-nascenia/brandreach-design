@@ -14,17 +14,16 @@
     color: #666666;
 }
 
-
-
 .payment-div {
     margin: 0px 20px 20px 20px;
+    height: 28px;
 }
 
 .btn-export {
     font-size: 20px;
     color: white;
     margin: 25px 5px 5px 5px;
-    padding: 5px 50px 5px 50px;
+    padding: 5px 35px;
     background-color: #f8c102;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
@@ -33,14 +32,17 @@
 .btn-age {
     font-size: 20px;
     color: grey;
-    margin: 5px 5px 5px 5px;
-    padding: 3px 50px 3px 62px;
+    margin: 6px 5px 5px 5px;
+    padding: 3px 13px;
     background-color: #ecf0f5;
-    border: 1px solid;
+    border: 1.5px solid #cdcdcd;
+    border-radius: 3px;
+    width: 95%;
+
 }
 
-.payment-button-set {
-    text-align: right;
+.dropdown-menu {
+    background-color: #ecf0f5;
 }
 
 .payment-div > .payment-balance {
@@ -198,6 +200,12 @@ input.cmn-toggle-round:checked + label:after {
 
 @media
 only screen and (max-width: 460px) {
+
+    .payment-div {
+        margin: 0px 20px 20px 20px;
+        height: 64px;
+    }
+
     table, thead, tbody, th, td, tr {
         display: block;
         border: 1px solid #dddddd;
