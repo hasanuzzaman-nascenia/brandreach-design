@@ -199,6 +199,25 @@ input.cmn-toggle-round:checked + label:after {
 }
 
 @media
+only screen and (max-width: 1130px) {
+    .btn-export {
+        font-size: 18px;
+        color: white;
+    }
+
+    .btn-age {
+        font-size: 18px;
+    }
+}
+
+@media
+only screen and (max-width: 980px) {
+    .btn-export, .btn-age {
+        font-size: 15px;
+    }
+}
+
+@media
 only screen and (max-width: 460px) {
 
     .payment-div {
