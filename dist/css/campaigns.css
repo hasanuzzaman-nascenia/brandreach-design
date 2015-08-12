@@ -75,7 +75,7 @@
 .performance-tab {
     color: #00AEEF;
     vertical-align: bottom;
-    padding: 5px 5px 0px 5px;
+    padding: 5px 5px 0px 0px;
     font-family: 'Raleway Medium', sans-serif;
     font-size: 14pt;
 }
@@ -83,7 +83,7 @@
 .engagement-tab {
     color: #00AEEF;
     vertical-align: bottom;
-    padding: 5px 5px 0px 5px;
+    padding: 5px 5px 0px 0px;
     font-family: 'Raleway Medium', sans-serif;
     font-size: 14pt;
 }
