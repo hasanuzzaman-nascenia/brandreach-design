@@ -38,7 +38,7 @@
     border: none;
 }
 .btn-circle:active{
-    background-color: #FFFFFF;
+    color: #000000;
 }
 
 .rounded-input-box{
