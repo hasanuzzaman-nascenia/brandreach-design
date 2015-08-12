@@ -2,32 +2,24 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>AdminLTE 2 | Dashboard</title>
-    <!-- Tell the browser to be responsive to screen width -->
+    <title>Influencers</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <!-- Bootstrap 3.3.4 -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <!-- Font Awesome Icons -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"
           type="text/css"/>
-    <!-- Ionicons -->
     <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css"/>
-    <!-- jvectormap -->
     <link href="plugins/jvectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css"/>
-    <!-- Theme style -->
     <link href="dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css"/>
-    <!-- AdminLTE Skins. Choose a skin from the css/skins
-         folder instead of downloading all of them to reduce the load. -->
     <link href="dist/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css"/>
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <!--google font-->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Hind:400,300,500,600,700' rel='stylesheet' type='text/css'>
+    <!--end of google font-->
     <link href="flag-icon/css/flag-icon.min.css" rel="stylesheet" type="text/css"/>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Hind:400,300,500,600,700' rel='stylesheet' type='text/css'>
 </head>
 <body class="skin-blue sidebar-mini">
 <div class="wrapper">
@@ -46,10 +38,11 @@
                     <img src="dist/img/user2-160x160.jpg" class="img-circle profile-image center-block" alt="User Image"/>
                 <div class="info">
                     <p class="text-center">Bhanu Prasad Madal </p>
-                    <a href="#" class="center-block text-center"><i class="fa fa-circle text-success"></i> Available</a>
+                    <a href="#" class="center-block text-center user-status"><i class="fa fa-circle text-color-follower"></i> Available &nbsp; &nbsp; <i class="fa fa-chevron-down"></i>
+                    </a>
                 </div>
                 <hr class="hr">
-                <p class="text-center">200,456 followers</p>
+                <p class="text-center font-hind">200,456 followers</p>
             </div>
 
             <br/>
@@ -62,7 +55,7 @@
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fa fa-envelope"></i> <span>OFFERS</span>
+                         <span class="glyphicon glyphicon-envelope"> </span> <span>OFFERS</span>
                     </a>
                 </li>
                 <li>
@@ -72,7 +65,7 @@
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fa fa-bullhorn"></i> <span>CAMPAIGNS</span>
+                        <span class="glyphicon icon-horn"></span>  <span>CAMPAIGNS</span>
                     </a>
                 </li>
                 <li>
@@ -95,9 +88,9 @@
     </aside>
 
     <div class="content-wrapper">
-        <section>
+        <section class="header-content">
             <div class="row">
-                <div class="col-md-1 col-sm-2 col-xs-3 col-md-offset-5 col-sm-offset-3 col-xs-offset-0">
+                <div class="col-md-1 col-sm-2 col-xs-3 col-md-offset-7 col-sm-offset-3 col-xs-offset-0">
                     <p class="pull-right">ABOUT</p>
                 </div>
 
@@ -105,32 +98,28 @@
                     <p class="pull-right"> Welcome back, Bhanu Prasad!</p>
                 </div>
 
-                <div class="col-md-1 col-sm-2 col-xs-2 ">
+                <div class="col-md-1 col-sm-2 col-xs-2">
                     <a href="javascript:void(0);">
-                        <p class="text-black"><i class="fa fa-power-off"></i> </p>
+                        <p class="text-black text-center"><i class="fa fa-power-off"></i> </p>
                     </a>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-md-3 col-xs-3">
+                <div class="col-md-3 col-xs-3 col-sm-3">
                     <a href="#"><img class="image img-responsive center-block" src="images/Logo.png"></a>
                 </div>
-
-                <div class="col-md-9 col-xs-9">
+                <div class="col-md-8 col-sm-7 col-xs-7">
                     <!-- search form -->
-                    <form action="#" method="get" class="">
+                    <form action="#" method="get" class="form-group">
                         <div class="row">
-                            <div class="col-md-8 col-sm-9 col-xs-9">
-                                <input class="form-control rounded-input-box" type="search"/>
+                                <input class="form-control rounded-input-box" type="search" placeholder="Enter Keywords..."/>
                                 <span class="glyphicon glyphicon-search"></span>
-
-                            </div>
-                            <div class="col-md-3 col-sm-3 col-xs-3">
-                                <button type="submit" class="btn btn-primary btn-circle">go</button>
-                            </div>
                         </div>
                     </form>
+                </div>
+                <div class="col-md-1 col-sm-2 col-xs-2">
+                    <button type="submit" class="btn-circle center-block">go</button>
                 </div>
 
             </div>
@@ -296,14 +285,15 @@
         </section>
     </div>
 
-    <footer class="main-footer">
-        <div class="text-center">
-            <strong>All Reserved &copy; Brand Reach | Copyright 2015</strong>
-        </div>
-    </footer>
+
 
 </div>
 <!-- ./wrapper -->
+<footer class="main-footer">
+    <div class="text-center">
+        <strong>All Reserved &#174; Brand Reach | Copyright 2015</strong>
+    </div>
+</footer>
 
 <!-- jQuery 2.1.4 -->
 <script src="plugins/jQuery/jQuery-2.1.4.min.js" type="text/javascript"></script>

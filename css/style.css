@@ -1,5 +1,16 @@
+
+.wrapper{
+    overflow: visible !important;
+}
+.header-content{
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 50px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    font-family: 'Raleway Medium', sans-serif;
+}
 .content-wrapper{
-    padding: 10px 0;
     background-color: #ecf0f5;
     z-index: 800;
 }
@@ -12,15 +23,22 @@
 .form-control + .glyphicon {
     position: absolute;
     left: 0;
-    padding: 8px 27px;
+    padding: 8px 10px;
 }
 
 .btn-circle {
+    color: white;
     width: 30px;
     height: 30px;
     /*line-height: 40px;*/
+
+    background-color: #00AEEF;
     padding:0;
     border-radius: 50%;
+    border: none;
+}
+.btn-circle:active{
+    background-color: #FFFFFF;
 }
 
 .rounded-input-box{
@@ -44,7 +62,7 @@
     padding-bottom: 5px;
 }
 .text-color-follower{
-    color: #0063dc;
+    color: #00d3c3;
 }
 /* info box style */
 .info-box-content{
@@ -87,13 +105,17 @@
 /* end info box style */
 .profile-image{
     width: 100px;
+    border: 1px solid;
+    padding: 11px;
 }
 .profile-info{
     width: 150px;
-    color: #b8c7ce;
+    /*color: #b8c7ce;*/
 }
 .hr{
     /*width: 80%;*/
+    height: 1px;
+    width: 100%;
     color: #565656;
 }
 .chart-info{
@@ -107,8 +129,57 @@
 
 /* side bar style */
 
+.sidebar{
+    color: #999999;
+    font-family: 'Raleway', sans-serif;
+}
+
+.skin-blue .sidebar a{
+    color: #999999;
+
+}
+
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side{
+    background-color: #2b2f3e;
+}
+
 .skin-blue .sidebar-menu>li:hover>a{
     color: #FFFFFF;
-    background-color: #FF004c;
+    background-color: #FF3059;
     border-left-style: hidden;
 }
+
+/* footer style sheet */
+
+.main-footer{
+    background-color: #252526;
+    color: #acacac;
+    /*z-index: 1000;*/
+    /*font-size: 15px;*/
+    margin-left: 0;
+    border-top: none;
+    font-family: 'Raleway Medium', sans-serif;
+}
+.icon-horn {
+    background: url("../images/horn.png") no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+    content: '';
+    padding-left: 0;
+}
+
+/* font style  */
+
+.font-hind{
+    font-family: 'Hind', sans-serif;
+    font-size: 10pt;
+
+}
+
+.user-status{
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 3px 0;
+}
+
