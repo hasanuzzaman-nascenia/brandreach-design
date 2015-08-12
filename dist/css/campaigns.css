@@ -5,13 +5,29 @@
 
 .header-bottom-margin{
     margin-top: 3px;
-    border-bottom: 3px solid;
-    color: #d5d5d5;
+    border-bottom: 2px solid;
+    color: #dddddd;
+    box-shadow: 0px 1px 4px #dddddd;
 }
 
 .table > thead > tr.payment-header > th {
     background-color: #eaeaea;
     color: #666666;
+}
+
+.table > thead > tr > th {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10.4pt;
+}
+
+.table > tbody > tr > td {
+    font-family: 'Hind Regular', sans-serif;
+    font-size: 10.4pt;
+    color: #666666;
+}
+
+.table > thead > tr > th:nth-child(2) {
+    width: 62px;
 }
 
 .payment-div {
@@ -20,29 +36,28 @@
 }
 
 .btn-export {
-    font-size: 20px;
     color: white;
     margin: 25px 5px 5px 5px;
     padding: 5px 35px;
     background-color: #f8c102;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
+    font-family: 'Raleway SemiBold', sans-serif;
+    font-size: 13pt;
 }
 
 .btn-age {
-    font-size: 20px;
     color: grey;
     margin: 6px 5px 5px 5px;
-    padding: 3px 13px;
+    padding: 4px 65px 4px 0px;
     background-color: #ecf0f5;
     border: 1.5px solid #cdcdcd;
     border-radius: 3px;
     width: 95%;
-
+    font-family: 'Raleway SemiBold', sans-serif;
+    font-size: 12pt;
 }
 
 .dropdown-menu {
-    background-color: #ecf0f5;
+    background-color: #f5f5f5;
 }
 
 .payment-div > .payment-balance {
@@ -59,16 +74,18 @@
 
 .performance-tab {
     color: #00AEEF;
-    font-size: 24px;
     vertical-align: bottom;
     padding: 5px 5px 0px 5px;
+    font-family: 'Raleway Medium', sans-serif;
+    font-size: 14pt;
 }
 
 .engagement-tab {
     color: #00AEEF;
-    font-size: 24px;
     vertical-align: bottom;
     padding: 5px 5px 0px 5px;
+    font-family: 'Raleway Medium', sans-serif;
+    font-size: 14pt;
 }
 
 .panel-payment {
@@ -146,8 +163,8 @@ th:nth-child(1), td:nth-child(1) {
 
 input.cmn-toggle-round + label {
     padding: 2px;
-    width: 60px;
-    height: 24px;
+    width: 45px;
+    height: 26px;
     background-color: #eaeaea;
     border-radius: 24px;
 }
@@ -162,22 +179,35 @@ input.cmn-toggle-round + label:after {
 }
 input.cmn-toggle-round + label:before {
     right: 1px;
-    background-color: #f1f1f1;
-    border-radius: 30px;
+    background-color: #ebebeb;
+    border-radius: 24px;
     transition: background 0.4s;
+    content: "x";
+    color: white;
+    padding-left: 29px;
+    padding-top: 1px;
+
 }
 input.cmn-toggle-round + label:after {
-    width: 24px;
+    width: 22px;
+    height: 22px;
+    margin: 1px 2px 1px 2px;
     background-color: #fff;
     border-radius: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    transition: margin 0.4s;
+    transition: margin 0.3s;
 }
 input.cmn-toggle-round:checked + label:before {
     background-color: #e72b52;
+    content: "o";
+    font-weight: 100;
+    padding-left: 6px;
+    padding-top: 1px;
+    color: #e5e5e5;
 }
+
 input.cmn-toggle-round:checked + label:after {
-    margin-left: 30px;
+    margin-left: 19px;
 }
 
 .pepsi-img-responsive {
@@ -212,8 +242,29 @@ only screen and (max-width: 1130px) {
 
 @media
 only screen and (max-width: 980px) {
-    .btn-export, .btn-age {
+    .btn-export {
         font-size: 15px;
+        margin: 20px 3px 3px 5px;
+        padding: 6px 25px 6px 25px;
+    }
+    .btn-age {
+        font-size: 15px;
+        margin: 10px 3px 3px 5px;
+        padding: 6px 36px 6px 0px;
+    }
+}
+
+@media
+only screen and (max-width: 800px) {
+    .btn-export {
+        font-size: 14px;
+        margin: 20px 3px 3px 5px;
+        padding: 6px 20px 6px 20px;
+    }
+   .btn-age {
+        font-size: 14px;
+        margin: 10px 3px 3px 5px;
+        padding: 6px 35px 6px 0px;
     }
 }
 
@@ -240,13 +291,13 @@ only screen and (max-width: 460px) {
         font-size: 10px;
         color: white;
         margin: 15px 3px 3px 5px;
-        padding: 5px 10px 5px 10px;
+        padding: 5px 12px 5px 12px;
     }
 
     .btn-age {
         font-size: 10px;
-        margin: 15px 3px 3px 5px;
-        padding: 5px 10px 5px 10px;
+        margin: 10px 3px 3px 5px;
+        padding: 5px 25px 5px 0px;
     }
 
     .pepsi-img-none {
