@@ -135,13 +135,24 @@
         <div class="payment-div ">
             <div class="payment-button-set pull-right">
                 <button class="btn btn-export">EXPORT</button>
-                <div class="dropdown">
+                <div class="dropdown" id="age_button">
                     <button class="btn btn-age dropdown-toggle" type="button" data-toggle="dropdown">Age
-                        <span class="caret"></span></button>
+                        <i class="fa fa-angle-down angle-down-age "></i>
+                    </button>
                     <ul class="dropdown-menu">
                         <li><a href="#">18-24</a></li>
                         <li><a href="#">25-34</a></li>
                         <li><a href="#">35-44</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown" id="country_button" style="display: none;">
+                    <button class="btn btn-country dropdown-toggle" type="button" data-toggle="dropdown">Country
+                        <i class="fa fa-angle-down angle-down-country "></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">India</a></li>
+                        <li><a href="#">HongKong</a></li>
+                        <li><a href="#">United Kingdom</a></li>
                     </ul>
                 </div>
             </div>
@@ -149,8 +160,8 @@
         <div class="content">
 
             <ul class="nav nav-tabs" id="campaign-tabs">
-                <li class= "active"><a href="#performance"><img src="../../images/Performance.png"> <span class="performance-tab"></span> Performance </a></li>
-                <li class= ""><a href="#engagement"><img src="../../images/Engagement.png"><span class="engagement-tab"></span> Engagement </a></li>
+                <li class= "active" id="performance_list"><a href="#performance"><img src="../../images/Performance.png"> <span class="performance-tab"></span> Performance </a></li>
+                <li class= "" id="engagement_list"><a href="#engagement"><img src="../../images/Engagement.png"><span class="engagement-tab"></span> Engagement </a></li>
             </ul>
             <div class="tab-content panel panel-payment">
                 <div id="performance" class="tab-pane fade in active">
@@ -550,11 +561,24 @@
 
 <script type="text/javascript">
     $(document).ready(function(){
+
         $("#campaign-tabs a").click(function(e){
             e.preventDefault();
             $(this).tab('show');
         });
-    })
+
+        $(document).on('click','#engagement_list',function(){
+            document.getElementById("age_button").style.display = 'none';
+            document.getElementById("country_button").style.display = 'block';
+        });
+
+        $(document).on('click','#performance_list',function(){
+            document.getElementById("country_button").style.display = 'none';
+            document.getElementById("age_button").style.display = 'block';
+        });
+    });
+
+
 </script>
 </body>
 </html>
