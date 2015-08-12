@@ -13,9 +13,16 @@
 .table > thead > tr.payment-header > th {
     background-color: #eaeaea;
     color: #666666;
-    font-family: 'Raleway SemiBold', sans-serif;
-    font-size: 10.5pt;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10.4pt;
 }
+
+.table > tbody > tr > td {
+    font-family: 'Hind Regular', sans-serif;
+    font-size: 10.4pt;
+    color: #666666;
+}
+
 
 .payment-div {
     margin: 0px 20px 20px 20px;
@@ -80,7 +87,7 @@
     height: 8px;
     border-radius: 10px;
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 2px;
 }
 
 .status-paid {
