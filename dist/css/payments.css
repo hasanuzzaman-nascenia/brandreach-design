@@ -13,6 +13,9 @@
 .table > thead > tr.payment-header > th {
     background-color: #eaeaea;
     color: #666666;
+    font-family: 'Raleway SemiBold', sans-serif;
+    font-size: 10.5pt;
+    font-weight: 1000;
 }
 
 .payment-div {
@@ -21,20 +24,20 @@
 
 .btn-download {
     color: white;
-    margin: 25px 5px 5px 5px;
-    padding: 10px 20px 10px 20px;
+    margin: 25px 3px 5px 5px;
+    padding: 5px 20px 5px 20px;
     background-color: #f8c102;
     font-family: 'Raleway SemiBold', sans-serif;
-    font-size: 13pt;
+    font-size: 11pt;
 }
 
 .btn-withdraw {
     color: white;
-    margin: 25px 5px 5px 5px;
-    padding: 10px 30px 10px 30px;
+    margin: 25px 5px 5px 3px;
+    padding: 5px 30px 5px 30px;
     background-color: #f8c102;
     font-family: 'Raleway SemiBold', sans-serif;
-    font-size: 13pt;
+    font-size: 11pt;
 }
 
 .payment-button-set {
@@ -46,11 +49,13 @@
     margin-left: 20%;
     display: block;
     padding: 10px 10px 0 0;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Raleway Medium', sans-serif;
+    font-size: 11pt;
 }
 
 #transaction-tabs {
-    font-size: 18px;
+    font-family: 'Raleway Medium', sans-serif;
+    font-size: 11pt;
 }
 .glyphicon-credit-card {
     color: #00AEEF;
@@ -75,6 +80,7 @@
     height: 8px;
     border-radius: 10px;
     display: inline-block;
+    margin-right: 5px;
 }
 
 .status-paid {
