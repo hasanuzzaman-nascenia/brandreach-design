@@ -24,7 +24,6 @@
 </head>
 <body class="skin-blue sidebar-mini">
 <div class="wrapper">
-
     <header class="main-header visible-xs">
         <nav class="navbar navbar-static-top" role="navigation">
             <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
@@ -40,10 +39,11 @@
                 <img src="dist/img/user2-160x160.jpg" class="img-circle profile-image center-block" alt="User Image"/>
                 <div class="info">
                     <p class="text-center">Bhanu Prasad Madal </p>
-                    <a href="#" class="center-block text-center"><i class="fa fa-circle text-success"></i> Available</a>
+                    <a href="#" class="center-block text-center user-status"><i class="fa fa-circle text-color-follower"></i> Available &nbsp; &nbsp; <i class="fa fa-chevron-down"></i>
+                    </a>
                 </div>
                 <hr class="hr">
-                <p class="text-center">200,456 followers</p>
+                <p class="text-center font-hind">200,456 followers</p>
             </div>
 
             <br/>
@@ -56,7 +56,7 @@
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fa fa-envelope"></i> <span>OFFERS</span>
+                        <span class="glyphicon glyphicon-envelope"> </span> <span>OFFERS</span>
                     </a>
                 </li>
                 <li>
@@ -66,7 +66,7 @@
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fa fa-bullhorn"></i> <span>CAMPAIGNS</span>
+                        <span class="glyphicon icon-horn"></span>  <span>CAMPAIGNS</span>
                     </a>
                 </li>
                 <li>
@@ -88,13 +88,10 @@
         </section>
     </aside>
 
-    <!-- Content Wrapper. Contains page content -->
-
     <div class="content-wrapper">
-
-        <section>
+        <section class="header-content">
             <div class="row">
-                <div class="col-md-1 col-sm-2 col-xs-3 col-md-offset-5 col-sm-offset-3 col-xs-offset-0">
+                <div class="col-md-1 col-sm-2 col-xs-3 col-md-offset-7 col-sm-offset-3 col-xs-offset-0">
                     <p class="pull-right">ABOUT</p>
                 </div>
 
@@ -102,32 +99,28 @@
                     <p class="pull-right"> Welcome back, Bhanu Prasad!</p>
                 </div>
 
-                <div class="col-md-1 col-sm-2 col-xs-2 ">
+                <div class="col-md-1 col-sm-2 col-xs-2">
                     <a href="javascript:void(0);">
-                        <p class="text-black"><i class="fa fa-power-off"></i> </p>
+                        <p class="text-black text-center"><i class="fa fa-power-off"></i> </p>
                     </a>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-md-2 col-xs-2">
+                <div class="col-md-3 col-xs-3 col-sm-3">
                     <a href="#"><img class="image img-responsive center-block" src="images/Logo.png"></a>
                 </div>
-
-                <div class="col-md-9 col-xs-9">
+                <div class="col-md-8 col-sm-7 col-xs-7">
                     <!-- search form -->
-                    <form action="#" method="get" class="">
+                    <form action="#" method="get" class="form-group">
                         <div class="row">
-                            <div class="col-md-9 col-sm-10 col-xs-10">
-                                <input class="form-control rounded-input-box" type="search"/>
-                                <span class="glyphicon glyphicon-search"></span>
-
-                            </div>
-                            <div class="col-md-3 col-sm-3 col-xs-3">
-                                <button type="submit" class="btn btn-primary btn-circle">go</button>
-                            </div>
+                            <input class="form-control rounded-input-box" type="search" placeholder="Enter Keywords..."/>
+                            <span class="glyphicon glyphicon-search"></span>
                         </div>
                     </form>
+                </div>
+                <div class="col-md-1 col-sm-2 col-xs-2">
+                    <button type="submit" class="btn-circle center-block">go</button>
                 </div>
 
             </div>
