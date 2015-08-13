@@ -23,6 +23,9 @@
     color: #666666;
 }
 
+.space {
+    margin-right: 4px;
+}
 
 .payment-div {
     margin: 0px 20px 20px 20px;
@@ -87,7 +90,7 @@
     height: 8px;
     border-radius: 10px;
     display: inline-block;
-    margin-right: 2px;
+    margin-right: 5px;
 }
 
 .status-paid {
