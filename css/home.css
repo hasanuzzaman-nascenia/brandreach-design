@@ -1,6 +1,6 @@
 .header {
     color: black;
-    font-weight: bold;
+    font-weight: lighter;
     height: 100px;
     padding: 26px 100px;
 }
@@ -29,6 +29,7 @@
 .navbar-nav > li > a{
     padding-bottom: 10px;
     padding-top: 10px;
+    color: #000000;
 }
 
 @media all and (max-width: 767px) {
