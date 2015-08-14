@@ -30,8 +30,8 @@
 
 .btn-circle {
     color: white;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     /*line-height: 40px;*/
 
     background-color: #00AEEF;
@@ -45,6 +45,7 @@
 
 .rounded-input-box{
     border-radius: 20px !important ;
+    height: 40px;
 }
 
 .info-box-custom {
