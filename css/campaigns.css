@@ -82,6 +82,10 @@
     background-color: #f5f5f5;
 }
 
+#performance_list a, #engagement_list a {
+    color: #555;
+}
+
 .payment-div > .payment-balance {
     font-size: 15px;
     margin-left: 20%;
@@ -185,7 +189,7 @@ th:nth-child(1), td:nth-child(1) {
 
 input.cmn-toggle-round + label {
     padding: 2px;
-    width: 45px;
+    width: 52px;
     height: 26px;
     background-color: #eaeaea;
     border-radius: 24px;
@@ -206,7 +210,7 @@ input.cmn-toggle-round + label:before {
     transition: background 0.4s;
     content: "x";
     color: white;
-    padding-left: 29px;
+    padding-left: 32px;
     padding-top: 1px;
 
 }
@@ -229,7 +233,7 @@ input.cmn-toggle-round:checked + label:before {
 }
 
 input.cmn-toggle-round:checked + label:after {
-    margin-left: 19px;
+    margin-left: 26px;
 }
 
 .pepsi-img-responsive {
