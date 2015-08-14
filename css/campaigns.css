@@ -39,7 +39,7 @@
 .btn-export {
     color: white;
     margin: 25px 5px 5px 5px;
-    padding: 5px 35px;
+    padding: 5px 36px;
     background-color: #f8c102;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
@@ -162,6 +162,7 @@ th:nth-child(1), td:nth-child(1) {
 
 .table > tbody > tr > td {
     border-right-color: #dddddd;
+    vertical-align: middle;
 }
 
 .squaredFour input {
@@ -232,8 +233,8 @@ input.cmn-toggle-round:checked + label:before {
     background-color: #e72b52;
     content: "o";
     font-weight: 100;
-    padding-left: 6px;
-    padding-top: 1px;
+    padding-left: 7px;
+    padding-top: 2px;
     color: #e5e5e5;
 }
 

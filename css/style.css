@@ -10,7 +10,7 @@
     min-height: 50px;
     padding: 15px;
     background-color: #FFFFFF;
-    font-family: 'Raleway Medium', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 .content-wrapper{
     background-color: #f9f9f9;
@@ -52,7 +52,7 @@
     background: #fff none repeat scroll 0 0;
     border-radius: 2px;
     display: block;
-    padding:10px 0;
+    padding: 4px 0;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
@@ -61,7 +61,7 @@
     margin: 0;
     padding: 5px 0;
     text-align: center;
-    border-right: 1px solid rgba(0,0,0,0.2);
+    border-right: 1px solid #e4e7ec;
 }
 
 .right-border{
@@ -89,12 +89,19 @@
 }
 
 .info-box-data{
+    line-height: 1.2;
     padding: 0;
     margin: 0;
-    font-size: 40px;
+    font-size: 48px;
 }
+
 .total-follower-data-color{
     color: #00AEEE;
+
+}
+
+.page-view-data-color{
+    color: #fc5b91;
 
 }
 
@@ -132,6 +139,7 @@
 .profile-image{
     width: 100px;
     border: 1px solid;
+    margin-bottom: 15px;
     padding: 11px;
 }
 .profile-info{
@@ -150,6 +158,7 @@ hr {
     width: 100%;
     background-color: #565656;
     border: none;
+    margin-bottom: 10px;
 }
 .chart-info{
     padding-left: 5%;
@@ -191,7 +200,7 @@ hr {
     /*font-size: 15px;*/
     margin-left: 0;
     border-top: none;
-    font-family: 'Raleway Medium', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 .icon-horn {
     background: url("../images/horn.png") no-repeat;
@@ -214,7 +223,7 @@ hr {
     border: 1px solid;
     border-radius: 15px;
     padding: 3px 0;
-    width: 70%;
+    width: 60%;
 }
 
 .camera{
@@ -253,6 +262,10 @@ hr {
     cursor: pointer;
 }
 
+.filter-item .close-filter-item{
+    line-height: 45px;
+}
+
 .close-filter-item-select{
     font-size: 20px;
     line-height: 45px;
@@ -263,5 +276,19 @@ hr {
     border-top: 3px solid #00c0ef;
 }
 
+.sidebar-menu {
+    margin-left: 9px;
+    font-size: 13px;
+    margin-top: 16px;
+}
+
+a.center-block.text-center.user-status.small
+{
+    font-size: 10px;
+}
+
+.sidebar-menu span.space-sidebar {
+    padding-left: 10px;
+}
 
 
