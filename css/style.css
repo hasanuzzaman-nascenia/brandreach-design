@@ -209,4 +209,7 @@ hr {
 .box{
     border-top: none;
 }
+.content {
+    width: 95%;
+}
 
