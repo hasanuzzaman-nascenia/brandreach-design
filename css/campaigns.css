@@ -21,7 +21,8 @@
 }
 
 .table > tbody > tr > td {
-    font-family: 'Hind Regular', sans-serif;
+    font-family: 'Hind', sans-serif;
+    font-weight: 500;
     font-size: 10.4pt;
     color: #666666;
 }
@@ -40,8 +41,9 @@
     margin: 25px 5px 5px 5px;
     padding: 5px 35px;
     background-color: #f8c102;
-    font-family: 'Raleway SemiBold', sans-serif;
-    font-size: 13pt;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 11pt;
 }
 
 .btn-age {
@@ -52,8 +54,9 @@
     border: 1.5px solid #cdcdcd;
     border-radius: 3px;
     width: 95%;
-    font-family: 'Raleway SemiBold', sans-serif;
-    font-size: 12pt;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 10pt;
 }
 
 .btn-country {
@@ -64,8 +67,9 @@
     border: 1.5px solid #cdcdcd;
     border-radius: 3px;
     width: 95%;
-    font-family: 'Raleway SemiBold', sans-serif;
-    font-size: 12pt;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 10pt;
 }
 
 .angle-down-age {
@@ -91,7 +95,6 @@
     margin-left: 20%;
     display: block;
     padding: 10px 10px 0 0;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #transaction-tabs {
@@ -102,7 +105,8 @@
     color: #00AEEF;
     vertical-align: bottom;
     padding: 5px 5px 0px 0px;
-    font-family: 'Raleway Medium', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     font-size: 14pt;
 }
 
@@ -110,7 +114,8 @@
     color: #00AEEF;
     vertical-align: bottom;
     padding: 5px 5px 0px 0px;
-    font-family: 'Raleway Medium', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     font-size: 14pt;
 }
 

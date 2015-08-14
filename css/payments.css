@@ -14,13 +14,15 @@
     background-color: #eaeaea;
     color: #666666;
     font-family: 'Raleway', sans-serif;
-    font-size: 10.4pt;
+    font-size: 10pt;
 }
 
 .table > tbody > tr > td {
-    font-family: 'Hind Regular', sans-serif;
-    font-size: 10.4pt;
+    font-family: 'Hind', sans-serif;
+    font-weight: 400;
+    font-size: 10.5pt;
     color: #666666;
+    vertical-align: middle;
 }
 
 .space {
@@ -37,7 +39,8 @@
     margin: 25px 3px 5px 5px;
     padding: 5px 20px 5px 20px;
     background-color: #f8c102;
-    font-family: 'Raleway SemiBold', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
     font-size: 11pt;
 }
 
@@ -46,7 +49,8 @@
     margin: 25px 5px 5px 3px;
     padding: 5px 30px 5px 30px;
     background-color: #f8c102;
-    font-family: 'Raleway SemiBold', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
     font-size: 11pt;
 }
 
@@ -64,9 +68,15 @@
 }
 
 #transaction-tabs {
-    font-family: 'Raleway Medium', sans-serif;
-    font-size: 11pt;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 10pt;
 }
+
+.transaction-table {
+    padding-left: 8px;
+}
+
 .glyphicon-credit-card {
     color: #00AEEF;
     font-size: 24px;
