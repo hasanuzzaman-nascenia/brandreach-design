@@ -1,6 +1,8 @@
 
-.wrapper{
+.skin-blue .wrapper{
     overflow: visible !important;
+    background-color: #F9F9F9 !important;
+
 }
 .header-content{
     margin-left: auto;
@@ -45,6 +47,14 @@
     border-radius: 20px !important ;
 }
 
+.info-box-custom {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 2px;
+    display: block;
+    padding:10px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
 .square-box{
     width: 15px;
     height: 15px;
@@ -67,8 +77,9 @@
 /* info box style */
 .info-box-content{
     margin: 0;
-    /*padding-left: 25%;*/
+    padding: 5px 0;
     text-align: center;
+    border-right: 1px solid rgba(0,0,0,0.2);
 }
 
 @media  (max-width: 1199px){
@@ -193,5 +204,9 @@ hr {
 
 .camera{
     padding-left: 20px;
+}
+
+.box{
+    border-top: none;
 }
 
