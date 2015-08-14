@@ -13,7 +13,7 @@
     font-family: 'Raleway Medium', sans-serif;
 }
 .content-wrapper{
-    background-color: #ecf0f5;
+    background-color: #f9f9f9;
     z-index: 800;
 }
 
@@ -25,7 +25,7 @@
 .form-control + .glyphicon {
     position: absolute;
     left: 0;
-    padding: 8px 10px;
+    padding: 13px 10px;
 }
 
 .btn-circle {
@@ -56,31 +56,24 @@
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-.square-box{
-    width: 15px;
-    height: 15px;
-    display: inline-block;
-}
-.bg-color-blue{
-    background: #4D97C2;
-}
-
-.bg-color-white{
-    background: #D2D6DE;
-}
-
-.padding{
-    padding-bottom: 5px;
-}
-.text-color-follower{
-    color: #00d3c3;
-}
 /* info box style */
 .info-box-content{
     margin: 0;
     padding: 5px 0;
     text-align: center;
     border-right: 1px solid rgba(0,0,0,0.2);
+}
+
+.right-border{
+    border-right: 1px solid rgba(0,0,0,0.2);
+}
+.info-box-custom:last-child .info-box-content{
+    border-right: none;
+}
+@media (max-width: 992px) {
+    .info-box-custom:nth-child(2) .info-box-content{
+        border-right: none;
+    }
 }
 
 @media  (max-width: 1199px){
@@ -115,6 +108,27 @@
 }
 
 /* end info box style */
+
+.square-box{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+.bg-color-blue{
+    background: #4D97C2;
+}
+
+.bg-color-white{
+    background: #D2D6DE;
+}
+
+.padding{
+    padding-bottom: 5px;
+}
+.text-color-follower{
+    color: #00d3c3;
+}
+
 .profile-image{
     width: 100px;
     border: 1px solid;
@@ -211,6 +225,43 @@ hr {
     border-top: none;
 }
 .content {
-    width: 95%;
+    width: 97%;
 }
+
+.filter-bar{
+    margin-bottom: 9px;
+    /*height: 50px;*/
+    background-color: #E9EAED;
+
+}
+.filter-item, .filter-item a{
+    line-height: 50px;
+    background-color: inherit;
+
+}
+.filter-item-select{
+    line-height: 45px;
+    background-color: #DADADA;
+    border-bottom: 5px solid #989898;
+}
+.close-filter-item{
+    color: #676767;
+    float: right;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 0 1px 0 #fff;
+    cursor: pointer;
+}
+
+.close-filter-item-select{
+    font-size: 20px;
+    line-height: 45px;
+    font-weight: 500;
+    color: #000000;
+}
+.box.box-info{
+    border-top: 3px solid #00c0ef;
+}
+
+
 

@@ -16,27 +16,27 @@ $(function () {
   var salesChart = new Chart(salesChartCanvas);
 
   var salesChartData = {
-    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    labels: ["30.05", "31.05", "01.06", "02.06", "03.06", "04.06", "05.06", "06.06", "07.06", "08.06", "09.06"],
     datasets: [
       {
-        label: "Electronics",
-        fillColor: "rgb(210, 214, 222)",
-        strokeColor: "rgb(210, 214, 222)",
-        pointColor: "rgb(210, 214, 222)",
-        pointStrokeColor: "#c1c7d1",
-        pointHighlightFill: "#fff",
-        pointHighlightStroke: "rgb(220,220,220)",
-        data: [65, 59, 80, 81, 56, 55, 40]
+        label: "Male",
+        fillColor: "#EA358C",
+        strokeColor: "EA358C",
+        pointColor: "EA358C",
+        pointStrokeColor: "#EA358C",
+        pointHighlightFill: "#EA358C",
+        pointHighlightStroke: "#EA358C",
+        data: [20, 30, 20, 15, 17, 23, 30, 40, 10, 17, 40]
       },
       {
-        label: "Digital Goods",
-        fillColor: "rgba(60,141,188,0.9)",
-        strokeColor: "rgba(60,141,188,0.8)",
-        pointColor: "#3b8bba",
-        pointStrokeColor: "rgba(60,141,188,1)",
-        pointHighlightFill: "#fff",
-        pointHighlightStroke: "rgba(60,141,188,1)",
-        data: [28, 48, 40, 19, 86, 27, 90]
+        label: "Female",
+        fillColor: "#9BE6F1",
+        strokeColor: "#9BE6F1",
+        pointColor: "#9BE6F1",
+        pointStrokeColor: "#9BE6F1",
+        pointHighlightFill: "#9BE6F1",
+        pointHighlightStroke: "#9BE6F1",
+          data: [30, 20, 40, 20, 25, 18, 15, 20, 20, 25, 25]
       }
     ]
   };
