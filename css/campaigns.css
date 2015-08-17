@@ -78,7 +78,7 @@
 }
 
 .angle-down-country {
-    padding-left: 28%;
+    padding-left: 26%;
 
 }
 
@@ -286,13 +286,13 @@ only screen and (max-width: 980px) {
     .btn-age {
         font-size: 15px;
         margin: 10px 3px 3px 5px;
-        padding: 6px 30px 6px 15px;
+        padding: 6px 22px 6px 18px;
     }
 
     .btn-country {
         font-size: 15px;
         margin: 10px 3px 3px 5px;
-        padding: 6px 25px 6px 8px;
+        padding: 6px 22px 6px 8px;
     }
     .angle-down-age {
         padding-left: 40%;
@@ -309,17 +309,22 @@ only screen and (max-width: 800px) {
     }
    .btn-age {
         font-size: 14px;
-        margin: 10px 3px 3px 6px;
-        padding: 6px 30px 6px 12px;
+        margin: 10px 3px 3px 4px;
+        padding: 6px 22px 6px 18px;
     }
 
     .btn-country {
         font-size: 14px;
-        margin: 10px 3px 3px 5px;
-        padding: 6px 20px 6px 6px;
+        margin: 10px 2px 3px 4px;
+        padding: 6px 20px 6px 9px;
     }
     .angle-down-age {
         padding-left: 50%;
+
+    }
+
+    .angle-down-country {
+        padding-left: 15%;
 
     }
 }
@@ -353,7 +358,7 @@ only screen and (max-width: 460px) {
     .btn-age {
         font-size: 10px;
         margin: 10px 3px 3px 5px;
-        padding: 5px 20px 5px 5px;
+        padding: 5px 22px 5px 9px;
     }
 
     .btn-country {

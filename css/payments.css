@@ -181,13 +181,13 @@ only screen and (max-width: 800px) {
     .btn-download {
         font-size: 13px;
         margin: 15px 2px 3px 5px;
-        padding: 5px 10px 5px 10px;
+        padding: 3px 10px;
     }
 
     .btn-withdraw {
         font-size: 13px;
         margin: 15px 3px 3px 2px;
-        padding: 5px 15px 5px 15px;
+        padding: 3px 10px;
     }
 
     .payment-div > .payment-balance {
@@ -207,14 +207,14 @@ only screen and (max-width: 380px) {
         font-size: 10px;
         color: white;
         margin: 15px 3px 3px 5px;
-        padding: 5px 10px 5px 10px;
+        padding: 3px 10px;
     }
 
     .btn-withdraw {
         font-size: 10px;
         color: white;
         margin: 15px 3px 3px 3px;
-        padding: 5px 15px 5px 15px;
+        padding: 3px 10px;
     }
 
     .payment-div > .payment-balance {
