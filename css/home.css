@@ -370,6 +370,8 @@ ul.menu-item li {
     padding: 10px 0 10px 7.4%;
     background-color: rgba(60, 60, 60, 0.5);
     color: #ffffff;
+    font-size: 12px;
+    font-family: 'Hind', sans-serif;
 }
 
 @media screen and (max-width: 600px){
@@ -403,4 +405,21 @@ ul.menu-item li {
 /* text style */
 #myNavbar .text-white{
     color: #ffffff;
+}
+
+.rights-reserved {
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+}
+
+.fb-twitter {
+    padding-left: 66%;
+}
+
+.space {
+    padding-right: 1.7%;
+}
+
+.fa-lg {
+    line-height: 1.5;
+    font-size: 1.5em;
 }
