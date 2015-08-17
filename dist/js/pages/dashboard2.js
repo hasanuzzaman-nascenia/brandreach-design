@@ -18,6 +18,16 @@ $(function () {
   var salesChartData = {
     labels: ["30.05", "31.05", "01.06", "02.06", "03.06", "04.06", "05.06", "06.06", "07.06", "08.06", "09.06"],
     datasets: [
+        {
+            label: "Female",
+            fillColor: "#9BE6F1",
+            strokeColor: "#9BE6F1",
+            pointColor: "#9BE6F1",
+            pointStrokeColor: "#9BE6F1",
+            pointHighlightFill: "#9BE6F1",
+            pointHighlightStroke: "#9BE6F1",
+            data: [20, 30, 20, 15, 17, 23, 30, 40, 10, 17, 40]
+        },
       {
         label: "Male",
         fillColor: "#EA358C",
@@ -26,18 +36,10 @@ $(function () {
         pointStrokeColor: "#EA358C",
         pointHighlightFill: "#EA358C",
         pointHighlightStroke: "#EA358C",
-        data: [20, 30, 20, 15, 17, 23, 30, 40, 10, 17, 40]
-      },
-      {
-        label: "Female",
-        fillColor: "#9BE6F1",
-        strokeColor: "#9BE6F1",
-        pointColor: "#9BE6F1",
-        pointStrokeColor: "#9BE6F1",
-        pointHighlightFill: "#9BE6F1",
-        pointHighlightStroke: "#9BE6F1",
           data: [30, 20, 40, 20, 25, 18, 15, 20, 20, 25, 25]
+
       }
+
     ]
   };
 
