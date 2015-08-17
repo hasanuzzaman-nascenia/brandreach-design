@@ -189,9 +189,9 @@ hr {
     background-color: #2b2f3e;
 }
 
-.skin-blue .sidebar-menu>li:hover>a{
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a{
     color: #FFFFFF;
-    background-color: #FF3059;
+    background: #FF3059;
     border-left-style: hidden;
 }
 
@@ -201,10 +201,10 @@ hr {
     background-color: #252526;
     color: #acacac;
     /*z-index: 1000;*/
-    /*font-size: 15px;*/
+    font-size: 12px;
     margin-left: 0;
     border-top: none;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Hind', sans-serif;
 }
 .icon-horn {
     background: url("../images/horn.png") no-repeat;
@@ -333,6 +333,17 @@ a.center-block.text-center.user-status.small
     padding-left: 10px;
 }
 
+
+.main-sidebar .sidebar-menu li.active {
+
+    color: #FFFFFF;
+    background-color: #FF3059;
+    border-left-style: hidden;
+}
+
+.rights-reserved {
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+}
 
 
 
