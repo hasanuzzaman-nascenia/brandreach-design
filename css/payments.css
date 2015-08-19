@@ -228,4 +228,59 @@ only screen and (max-width: 380px) {
     width: 100%;
 }
 
+.withdraw-modal-dialog {
+    padding-top: 9.3%;
+    height: 100%;
+    width: 60%;
+}
+
+.withdraw-modal-content {
+    height:390px;
+}
+
+.withdraw-modal-header {
+    background-color: #FF3059;
+    height: 95px;
+    padding: 28px 6%;
+}
+
+.withdraw-modal-header .withdraw-modal-close {
+    color: #ffffff;
+    font-size: 3em;
+    margin-top: -38px;
+    opacity: 1.5;
+}
+
+.withdraw-modal-body {
+    padding: 40px 6% 0;
+}
+
+.modal-amount {
+    font-weight: normal;
+}
+
+.modal-amount-input {
+    border: none;
+    background-color: #e8e8e8;
+    width: 20%;
+}
+
+.bank-name {
+    background-color: #e8e8e8;
+    border: none;
+}
+
+.bank-dropdown {
+    background-color: #e8e8e8;
+    border: none;
+    padding: 0;
+}
+
+@media
+only screen and (max-width: 768px) {
+    .modal-amount-input {
+        width: 60px;
+    }
+}
+
 
