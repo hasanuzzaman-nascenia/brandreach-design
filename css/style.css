@@ -165,7 +165,7 @@ hr {
     margin-bottom: 10px;
 }
 .chart-info{
-    padding-left: 5%;
+    padding-left: 2%;
     color: #808080;
 }
 @media (max-width: 500px) {
@@ -377,6 +377,18 @@ a.center-block.text-center.user-status.small
     font-size: 1.5em;
     background: none;
     color: grey;
+}
+
+.map-chart {
+    background-color: white;
+}
+
+.chart #salesChart {
+    height: 300px;
+}
+
+.stat-gender {
+    font-size: 18px;
 }
 
 

@@ -19,24 +19,24 @@ $(function () {
     labels: ["30.05", "31.05", "01.06", "02.06", "03.06", "04.06", "05.06", "06.06", "07.06", "08.06", "09.06"],
     datasets: [
         {
-            label: "Female",
+            label: "Male",
             fillColor: "#9BE6F1",
             strokeColor: "#9BE6F1",
             pointColor: "#9BE6F1",
             pointStrokeColor: "#9BE6F1",
             pointHighlightFill: "#9BE6F1",
             pointHighlightStroke: "#9BE6F1",
-            data: [20, 30, 20, 15, 17, 23, 30, 40, 10, 17, 40]
+            data: [80, 120, 80, 68, 120, 75, 68, 115, 90, 60, 130]
         },
       {
-        label: "Male",
+        label: "Female",
         fillColor: "#EA358C",
         strokeColor: "EA358C",
         pointColor: "EA358C",
         pointStrokeColor: "#EA358C",
         pointHighlightFill: "#EA358C",
         pointHighlightStroke: "#EA358C",
-          data: [30, 20, 40, 20, 25, 18, 15, 20, 20, 25, 25]
+        data: [80, 120, 80, 68, 120, 75, 68, 115, 90, 60, 130]
 
       }
 
@@ -47,7 +47,7 @@ $(function () {
     //Boolean - If we should show the scale at all
     showScale: true,
     //Boolean - Whether grid lines are shown across the chart
-    scaleShowGridLines: false,
+    scaleShowGridLines: true,
     //String - Colour of the grid lines
     scaleGridLineColor: "rgba(0,0,0,.05)",
     //Number - Width of the grid lines
@@ -55,7 +55,7 @@ $(function () {
     //Boolean - Whether to show horizontal lines (except X axis)
     scaleShowHorizontalLines: true,
     //Boolean - Whether to show vertical lines (except Y axis)
-    scaleShowVerticalLines: true,
+    scaleShowVerticalLines: false,
     //Boolean - Whether the line is curved between points
     bezierCurve: true,
     //Number - Tension of the bezier curve between points
@@ -79,7 +79,12 @@ $(function () {
     //Boolean - whether to maintain the starting aspect ratio or not when responsive, if set to false, will take up entire container
     maintainAspectRatio: false,
     //Boolean - whether to make the chart responsive to window resizing
-    responsive: true
+    responsive: true,
+
+    scaleOverride : true,
+    scaleSteps : 4,
+    scaleStepWidth : 40,
+    scaleStartValue : 0
   };
 
   //Create the line chart
