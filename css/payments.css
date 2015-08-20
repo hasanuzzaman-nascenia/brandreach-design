@@ -249,6 +249,7 @@ only screen and (max-width: 380px) {
     font-size: 3em;
     margin-top: -38px;
     opacity: 1.5;
+    font-weight: 100;
 }
 
 .withdraw-modal-body {
