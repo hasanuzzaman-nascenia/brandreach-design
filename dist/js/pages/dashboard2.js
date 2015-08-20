@@ -36,7 +36,7 @@ $(function () {
         pointStrokeColor: "#EA358C",
         pointHighlightFill: "#EA358C",
         pointHighlightStroke: "#EA358C",
-        data: [80, 120, 80, 68, 120, 75, 68, 115, 90, 60, 130]
+        data: [115, 75, 118, 100, 85, 130, 110, 85, 115, 95, 115]
 
       }
 
