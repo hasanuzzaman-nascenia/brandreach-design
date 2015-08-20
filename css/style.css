@@ -422,4 +422,11 @@ a.center-block.text-center.user-status.small
     font-weight: 500;
 }
 
+@media (max-width: 800px) {
+    .fb-chart {
+        margin: 0 12px 0 15px;
+        box-sizing: border-box;
+    }
+}
+
 
