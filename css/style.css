@@ -429,4 +429,10 @@ a.center-block.text-center.user-status.small
     }
 }
 
+@media (max-width: 398px) {
+    .chart-male {
+        margin-right: 30px;
+    }
+}
+
 
