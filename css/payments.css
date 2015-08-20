@@ -3,13 +3,6 @@
     background-color: #f9f9f9;
 }
 
-.header-bottom-margin{
-    margin-top: 3px;
-    border-bottom: 1px solid;
-    color: #dddddd;
-    box-shadow: 0px 1.5px 3px #dddddd;
-}
-
 .table > thead > tr.payment-header > th {
     background-color: #eaeaea;
     color: #666666;

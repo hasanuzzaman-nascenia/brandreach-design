@@ -8,7 +8,7 @@
     margin-left: auto;
     margin-right: auto;
     min-height: 50px;
-    padding: 15px;
+    padding: 15px 15px 8px;
     background-color: #FFFFFF;
     font-family: 'Raleway', sans-serif;
 }
@@ -38,6 +38,7 @@
     padding:0;
     border-radius: 50%;
     border: none;
+    margin: 0 3px;
 }
 .btn-circle:active{
     color: #000000;
@@ -226,8 +227,8 @@ hr {
 .user-status{
     border: 1px solid;
     border-radius: 15px;
-    padding: 3px 0;
-    width: 60%;
+    padding: 2px 0;
+    width: 55%;
 }
 
 .camera{
@@ -239,6 +240,7 @@ hr {
 }
 .content {
     width: 97%;
+    margin-top: 5px;
 }
 
 .filter-bar{
@@ -250,6 +252,7 @@ hr {
 .filter-item, .filter-item a{
     line-height: 50px;
     background-color: inherit;
+    font-size: 15px;
 
 }
 .filter-item-select{
@@ -257,10 +260,10 @@ hr {
     background-color: #DADADA;
     border-bottom: 5px solid #989898;
 }
-.close-filter-item{
+.filter-item a.close-filter-item{
     color: #676767;
     float: right;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 500;
     text-shadow: 0 1px 0 #fff;
     cursor: pointer;
@@ -345,5 +348,35 @@ a.center-block.text-center.user-status.small
     font-family: Arial,Verdana,Helvetica,sans-serif;
 }
 
+.header-bottom-margin{
+    margin-top: 3px;
+    border-bottom: 2px solid;
+    color: #dddddd;
+    box-shadow: 0px 1px 4px #dddddd;
+}
+
+.welcome, .about {
+    font-size: 13px;
+}
+
+.about-welcome {
+    margin-bottom: 5px;
+}
+
+#world-map-markers .jvectormap-zoomin {
+    top:9%;
+    background: none;
+    color: grey;
+    font-size: 1.5em;
+
+}
+
+#world-map-markers .jvectormap-zoomout {
+    margin-left: -50px;
+    top: 16.2%;
+    font-size: 1.5em;
+    background: none;
+    color: grey;
+}
 
 
