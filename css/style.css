@@ -435,4 +435,14 @@ a.center-block.text-center.user-status.small
     }
 }
 
+@media (max-width: 440px) {
+    .go-button {
+        padding-left: 5px;
+    }
+
+    .btn-circle {
+        margin: 0;
+    }
+}
+
 
