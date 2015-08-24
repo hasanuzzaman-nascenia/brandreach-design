@@ -420,12 +420,22 @@ a.center-block.text-center.user-status.small
     font-size: 12px;
     padding: 0;
     font-weight: 500;
+    background-color: white;
+    width: 92%;
+    text-align: left;
+}
+
+.angle-down-cities {
+    font-size: 1.6em;
 }
 
 @media (max-width: 800px) {
     .fb-chart {
         margin: 0 12px 0 15px;
         box-sizing: border-box;
+    }
+    .view-country {
+        font-size: .8em;
     }
 }
 
@@ -442,6 +452,9 @@ a.center-block.text-center.user-status.small
 
     .btn-circle {
         margin: 0;
+    }
+    .view-country {
+        font-size: .6em;
     }
 }
 

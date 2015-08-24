@@ -227,10 +227,14 @@
                             <thead>
                             <tr>
                                 <th>
-                                    <select class="form-control view-country" name="VIEW BY COUNTRY">
-                                        <option value="country">VIEW BY: COUNTRY</option>
-                                        <option value="city">VIEW BY: CITIES</option>
-                                    </select>
+                                    <div class="dropdown">
+                                        <button class="btn view-country dropdown-toggle" type="button" data-toggle="dropdown">VIEW BY: COUNTRY
+                                        </button>
+                                        <i class="fa fa-angle-down angle-down-cities"></i>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">VIEW BY: CITIES</a></li>
+                                        </ul>
+                                    </div>
                                 </th>
                                 <th><i class=" text-danger fa fa-heart-o"></i> &nbsp;Followers</th>
                                 <th><i class="fa fa-comment-o"></i> &nbsp;Post Reach</th>
