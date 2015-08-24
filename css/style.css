@@ -323,9 +323,12 @@ th,td{
 }
 
 .sidebar-menu {
-    margin-left: 9px;
     font-size: 13px;
     margin-top: 16px;
+}
+
+.sidebar-menu li a{
+    padding-left: 28px;
 }
 
 a.center-block.text-center.user-status.small
