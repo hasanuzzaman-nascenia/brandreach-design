@@ -421,7 +421,7 @@ a.center-block.text-center.user-status.small
     padding: 0;
     font-weight: 500;
     background-color: white;
-    width: 92%;
+    width: 100%;
     text-align: left;
 }
 
@@ -435,6 +435,7 @@ a.center-block.text-center.user-status.small
         box-sizing: border-box;
     }
     .view-country {
+        font-family: sans-serif;
         font-size: .8em;
     }
 }
@@ -454,7 +455,7 @@ a.center-block.text-center.user-status.small
         margin: 0;
     }
     .view-country {
-        font-size: .6em;
+        font-size: .7em;
     }
 }
 
