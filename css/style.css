@@ -467,4 +467,10 @@ a.center-block.text-center.user-status.small
     margin-top: 10px;
 }
 
+@media only screen and (min-width:990px) and (max-width: 1050px) {
+    .facebook-male {
+        width: 40px;
+    }
+}
+
 
