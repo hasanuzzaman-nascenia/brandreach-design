@@ -238,6 +238,13 @@ only screen and (max-width: 380px) {
     width: 60%;
 }
 
+@media
+only screen and (max-width: 480px) {
+    .withdraw-modal-dialog {
+        width: 95%;
+    }
+}
+
 .withdraw-modal-content {
     height:460px;
 }
@@ -316,6 +323,13 @@ only screen and (max-width: 768px) {
 
 .without-first-line {
     margin-top: 32px;
+}
+
+@media
+only screen and (max-width: 480px) {
+    .without-first-line {
+       font-size: 9px;
+    }
 }
 
 .withdraw-modal-amount{
