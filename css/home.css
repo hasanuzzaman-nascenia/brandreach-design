@@ -179,6 +179,10 @@ ul.menu-item li {
     font-size: 12px;
     font-weight: 500;
 }
+
+.navbar-nav > li > a.btn-custom{
+    margin-left: 20px;
+}
 .btn-submit {
     background-color: #00c9f3;
     border: medium none;
