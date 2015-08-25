@@ -20,6 +20,7 @@
 .deny {
     text-decoration: underline;
     color: #fe5773;
+    padding-left: 20px;
 }
 
 .inbox-logo-responsive {
@@ -46,8 +47,8 @@
     border: none;
 }
 
-.offers_table tbody tr td:nth-child(n+5):nth-child(-n+8) ,
-.starred_table tbody tr td:nth-child(n+5):nth-child(-n+8) {
+.offers_table tbody tr td:nth-child(n+5):nth-child(-n+7) ,
+.starred_table tbody tr td:nth-child(n+5):nth-child(-n+7) {
     font-family: 'Raleway', sans-serif;
     font-size: 13px;
 }
@@ -124,6 +125,28 @@ only screen and (max-width: 540px) {
     border-radius: 10px;
     display: inline-block;
 }
+
+.inbox-tab {
+    margin: 0px 34px 0px 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.starred-tab {
+    margin: 0px 26px 0px 7px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    vertical-align: middle;
+
+}
+
+.inbox-tab, .starred-tab {
+    color: #555;
+}
+
 
 
 
