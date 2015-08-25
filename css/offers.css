@@ -132,14 +132,18 @@ only screen and (max-width: 540px) {
     font-weight: 500;
     font-size: 13px;
     vertical-align: middle;
+    display: inline-block;
+    padding-bottom: 2px;
 }
 
-.starred-tab {
+#starred_list .starred-tab {
     margin: 0px 26px 0px 7px;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 13px;
     vertical-align: middle;
+    display: inline-block;
+    padding-top: 2px;
 
 }
 
