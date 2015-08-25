@@ -365,7 +365,7 @@ a.center-block.text-center.user-status.small
 }
 
 .about-welcome {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 #world-map-markers .jvectormap-zoomin {
@@ -461,6 +461,10 @@ a.center-block.text-center.user-status.small
     .view-country {
         font-size: .7em;
     }
+}
+
+.search-top-margin {
+    margin-top: 10px;
 }
 
 
