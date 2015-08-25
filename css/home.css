@@ -1,3 +1,26 @@
+/* all page content wrapper */
+.wrapper-content{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 2%;
+}
+
+@media  (min-width: 768px){
+    .wrapper-content{
+        max-width: 1000px;
+        margin: auto;
+    }
+}
+
+@media  (min-width: 992px){
+
+}
+
+@media  (min-width: 768px){
+
+}
+
+/* */
 .header {
     color: black;
     font-weight: lighter;
@@ -85,7 +108,7 @@
 
 .logo {
     float: left;
-    padding-left: 8%;
+    /*padding-left: 8%;*/
 }
 
 .links {
@@ -122,10 +145,7 @@ ul.menu-item li {
 }
 
 .identity {
-    background-image: url("../images/Pic1.png");
-    background-size: cover;
-    background-position: 50%;
-    background-repeat: no-repeat;
+    background: url("../images/Pic1.png") no-repeat scroll center center / cover ;
     height: 680px;
 }
 
@@ -133,7 +153,6 @@ ul.menu-item li {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 66px;
-    padding-left: 10%;
     padding-top: 160px;
     line-height: 1;
     padding-bottom: 10px;
@@ -144,7 +163,6 @@ ul.menu-item li {
     font-weight: 500;
     color: #00aeef;
     font-size: 30px;
-    padding-left: 10%;
     line-height: 1.2;
 }
 
@@ -165,7 +183,7 @@ ul.menu-item li {
     background: #333333 none repeat scroll 0 0;
     color: white;
     /*height: 300px;*/
-    padding: 50px 50px 50px 10%;
+    padding: 50px 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
@@ -216,8 +234,9 @@ ul.menu-item li {
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
-    padding: 50px 10%;
+    padding: 50px 0;
     /*height: 730px;*/
+    font-weight: 300;
 }
 
 .about-us .text-top {
@@ -232,7 +251,7 @@ ul.menu-item li {
     color: white;
     font-size: 56px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 @media screen and (max-width: 1010px) {
@@ -295,7 +314,7 @@ ul.menu-item li {
 }
 
 .brands {
-    padding: 50px 100px 7% 10%;
+    padding: 50px 0;
 }
 
 .brands .text-top {
@@ -343,7 +362,7 @@ ul.menu-item li {
 }
 
 .contact-form {
-    padding: 50px 100px;
+    padding: 50px 0;
 }
 
 .contact-form .form-control {
@@ -367,7 +386,7 @@ ul.menu-item li {
 
 .footer {
     height: 40px;
-    padding: 10px 0 10px 7.4%;
+    padding: 10px 0 10px 0%;
     background-color: rgba(60, 60, 60, 0.5);
     color: #ffffff;
     font-size: 12px;
@@ -379,26 +398,26 @@ ul.menu-item li {
         height: 98px;
     }
 
-    .footer span {
-        display: block;
-        margin: 10px;
-        float: none !important;
-        text-align: center;
-    }
+    /*.footer span {*/
+        /*display: block;*/
+        /*margin: 10px;*/
+        /*float: none !important;*/
+        /*text-align: center;*/
+    /*}*/
 }
 
 @media screen and (max-width: 580px){
-    .footer span.pull-left {
-        position: absolute;
-        left: 5%;
-    }
+    /*.footer span.pull-left {*/
+        /*position: absolute;*/
+        /*left: 5%;*/
+    /*}*/
 
-    .footer span.pull-right {
-        position: absolute;
-        margin-top: 40px;
-        text-align: center;
-        left: 40%;
-    }
+    /*.footer span.pull-right {*/
+        /*position: absolute;*/
+        /*margin-top: 40px;*/
+        /*text-align: center;*/
+        /*left: 40%;*/
+    /*}*/
 
 }
 
@@ -412,27 +431,36 @@ ul.menu-item li {
 }
 
 .fb-twitter {
-    padding-left: 66%;
+    float: none;
+    margin-top: 5px;
+    padding-left: 38%;
+}
+.fb-twitter:after{
+    content:'';
+    display:block;
+    clear: both;
 }
 
 
-@media screen and (max-width: 980px){
+@media screen and (min-width: 768px){
     .fb-twitter {
-        padding-left: 50%;
+        margin-top: 0;
+        float: right;
+        padding: 0;
     }
 }
 
 @media screen and (max-width: 800px){
-    .fb-twitter {
-        padding-left: 45%;
-    }
+
 }
 
 .space {
-    padding-right: 1.7%;
+    padding-right: 30px;
 }
 
 .fa-lg {
     line-height: 1.5;
     font-size: 1.5em;
 }
+
+/* media query section */
