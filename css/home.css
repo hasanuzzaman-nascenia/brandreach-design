@@ -46,8 +46,11 @@
 .header {
     color: black;
     font-weight: lighter;
-    height: 80px;
     padding-top: 20px;
+}
+
+.navbar{
+    margin-bottom: 5px;
 }
 .navbar-collapse{
     padding: 0;
