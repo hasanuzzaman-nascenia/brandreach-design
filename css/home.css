@@ -1,19 +1,42 @@
 /* all page content wrapper */
 .wrapper-content{
-    max-width: 1000px;
+    max-width: 1010px;
     margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media  (max-width: 767px){
+    .header .wrapper-content{
+        padding-left: 0px;
+    }
+    .logo{
+        padding-left: 10px;
+    }
+}
+/*.clear-padding-margin{*/
+    /*padding-right: 0;*/
+    /*margin: 0;*/
+/*}*/
+@media  (min-width: 768px){
+    .clear-padding-margin{
+        padding-right: 0;
+        margin: 0;
+    }
+
+}
+.only-right-padding{
+    padding-right: 15px;
 }
 
 @media  (min-width: 768px){
     .wrapper-content{
         max-width: 1000px;
         margin: auto;
+        padding-left: 0;
     }
 }
 
-@media  (min-width: 992px){
-
-}
 
 @media  (min-width: 768px){
 
@@ -83,10 +106,6 @@
     padding: 10px 0;
 }
 
-.navbar-nav > li > a.btn-custom{
-    margin-right: 0;
-    padding: 10px;
-}
 
 @media all and (max-width: 767px) {
     .navbar-nav > li > a{
@@ -188,6 +207,19 @@ ul.menu-item li {
 
 .navbar-nav > li > a.btn-custom{
     margin-left: 20px;
+    padding: 10px;
+}
+
+.collapsing .navbar-nav > li > a.btn-custom{
+    margin-left: 25px;
+}
+.in .navbar-nav > li > a.btn-custom {
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+.in .navbar-nav, .collapsing .navbar-nav{
+    margin: 7.5px -10px
 }
 .btn-submit {
     background-color: #00c9f3;
@@ -195,6 +227,7 @@ ul.menu-item li {
     border-radius: 0;
     height: 38px;
     width: 111px;
+    margin-top: 14px;
 }
 
 @media screen and (max-width: 650px) {
@@ -261,7 +294,7 @@ ul.menu-item li {
     background-position: 50%;
     background-repeat: no-repeat;
     padding: 60px 0;
-    /*height: 730px;*/
+    border-bottom: 1px solid #dcbda1;
     font-weight: 300;
 }
 
@@ -275,9 +308,11 @@ ul.menu-item li {
 
 .about-us .text-description {
     color: white;
+    font-family: Helvetica Neue,Roboto,sans-serif;
     font-size: 56px;
-    font-family: Helvetica Neue, Roboto, sans-serif;
     font-weight: 200;
+    line-height: 1;
+    margin-top: 15px;
 }
 
 @media screen and (max-width: 1010px) {
@@ -296,6 +331,8 @@ ul.menu-item li {
 
 .about-us-block span {
     display: block;
+    line-height: 1;
+    margin-bottom: 16px;
     text-align: left;
 }
 
@@ -340,7 +377,13 @@ ul.menu-item li {
 }
 
 .brands {
-    padding: 50px 0 100px;
+    padding: 61px 0 100px;
+}
+
+.collapsing{
+    background-color: #ffffff;
+    float: left;
+    width: 100%;
 }
 
 .brands .text-top {
@@ -388,7 +431,7 @@ ul.menu-item li {
 }
 
 .contact-form {
-    padding: 50px 0;
+    padding: 60px 0;
 }
 
 .contact-form .form-control {
@@ -396,7 +439,10 @@ ul.menu-item li {
     border-radius: 2px;
 }
 .contact-us .contact-form input[type="text"],input[type="email"],input[type="number"]{
-    height: 48px;
+    height: 49px;
+}
+.form-group{
+    margin-bottom: 11px;
 }
 
 @media (max-width: 500px) {
@@ -410,11 +456,11 @@ ul.menu-item li {
     font-size: 30px;
     font-weight: 100;
     padding-left: 0;
-    padding-bottom: 5%;
+    padding-bottom: 34px;
 }
 
 .footer {
-    height: 40px;
+    min-height: 50px;
     padding: 10px 0 10px 0%;
     background-color: rgba(60, 60, 60, 0.5);
     color: #ffffff;
@@ -455,6 +501,22 @@ ul.menu-item li {
     color: #ffffff;
 }
 
+.my-nav-bar{
+    float: left;
+}
+.my-nav-bar:after{
+    content: '';
+    clear: both;
+}
+@media (min-width: 768px) {
+    .my-nav-bar{
+        float: right;
+    }
+}
+
+.navbar-collapse.in{
+    background-color:#ffffff ;
+}
 .rights-reserved {
     font-family: Arial,Verdana,Helvetica,sans-serif;
 }
