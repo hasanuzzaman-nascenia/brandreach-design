@@ -237,7 +237,7 @@ input.cmn-toggle-round:checked + label:after {
 
 .pepsi-img-responsive {
     display: inline-block;
-    max-width: 8%;
+    width: 20px;
     height: auto;
 }
 
