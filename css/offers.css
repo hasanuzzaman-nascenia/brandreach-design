@@ -151,6 +151,11 @@ only screen and (max-width: 540px) {
     color: #555;
 }
 
+.offers_table tbody tr td:nth-child(n+1):nth-child(-n+4),
+.starred_table tbody tr td:nth-child(n+1):nth-child(-n+4) {
+    width:35px;
+}
+
 
 
 
