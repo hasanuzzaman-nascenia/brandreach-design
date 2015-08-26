@@ -441,7 +441,7 @@ ul.menu-item li {
 
 @media (max-width: 500px) {
     .contact-form {
-        padding: 20px 20px;
+        /*padding: 20px 20px;*/
     }
 }
 
@@ -460,7 +460,15 @@ ul.menu-item li {
     font-size: 12px;
     font-family: 'Hind', sans-serif;
 }
+.footer-info-padding{
+    padding-left: 15px;
+}
 
+@media  (min-width: 1010px){
+    .footer-info-padding{
+        padding-left: 0;
+    }
+}
 @media screen and (max-width: 600px){
     .footer {
         height: 98px;
