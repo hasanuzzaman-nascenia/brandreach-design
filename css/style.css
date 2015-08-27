@@ -476,4 +476,19 @@ a.center-block.text-center.user-status.small
     }
 }
 
+.custom-drop-down-button{
+    background-color: #ffffff;
+    border: 1px solid #808080;
+    color: #808080;
+    height: 20px;
+    line-height: 1;
+    padding: 0;
+    width: 92px;
+}
+.custom-drop-down-button:hover{
+    background-color: #ffffff;
+    color: #808080;
+
+}
+
 
