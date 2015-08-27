@@ -459,6 +459,7 @@ ul.menu-item li {
     color: #ffffff;
     font-size: 12px;
     font-family: 'Hind', sans-serif;
+    margin: 0;
 }
 .footer-info-padding{
     padding-left: 15px;
