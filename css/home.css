@@ -540,12 +540,15 @@ ul.menu-item li {
 .fb-twitter a{
     color: #fff;
 }
+.fb-twitter .fa{
+    line-height: 18px;
+}
 
 
 @media screen and (min-width: 768px){
     .fb-twitter {
         float: right;
-        margin-top: -10px;
+        margin-top: 0;
         padding: 0;
     }
 }
