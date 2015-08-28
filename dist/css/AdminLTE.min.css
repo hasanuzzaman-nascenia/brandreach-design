@@ -4344,6 +4344,7 @@ table.text-center, table.text-center td, table.text-center th {
     position: relative;
     overflow: hidden;
     width: 100%
+    padding: 0 15px 0 34px;
 }
 
 .chart svg, .chart canvas {

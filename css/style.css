@@ -1,6 +1,6 @@
 
 .skin-blue .wrapper{
-    overflow: visible !important;
+    /*overflow: visible !important;*/
     background-color: #F9F9F9 !important;
 
 }
@@ -8,7 +8,7 @@
     margin-left: auto;
     margin-right: auto;
     min-height: 50px;
-    padding: 15px 15px 8px;
+    padding: 17px 15px 20px;
     background-color: #FFFFFF;
     font-family: 'Raleway', sans-serif;
     font-size: 13px;
@@ -26,7 +26,7 @@
 .form-control + .glyphicon {
     position: absolute;
     left: 0;
-    padding: 13px 25px;
+    padding: 12px 25px;
 }
 
 .btn-circle {
@@ -46,13 +46,13 @@
 
 .rounded-input-box{
     border-radius: 20px !important;
-    height: 40px;
+    height: 36px;
     padding-left: 30px;
 }
 
 .info-box-custom {
     background: #fff none repeat scroll 0 0;
-    border-radius: 2px;
+    /*border-radius: 2px;*/
     display: block;
     padding: 4px 0;
     border-bottom: 1px solid rgba(0,0,0,0.2);
@@ -241,7 +241,7 @@ hr {
 }
 .content {
     /*width: 97%;*/
-    margin:5px 10px ;
+    margin: 5px 14px 0 19px;
     /*margin-top: 5px;*/
 }
 
@@ -365,6 +365,7 @@ a.center-block.text-center.user-status.small
     margin-right: 15px;
     max-width: 293px;
     float: right;
+    margin-bottom: -2px;
 }
 .about-welcome:after{
     clear: both;
@@ -528,6 +529,18 @@ a.center-block.text-center.user-status.small
     background-color: #ffffff;
     color: #808080;
 
+}
+.remove-right-padding{
+    padding-right: 0;
+}
+.table-striped > tbody > tr:nth-of-type(2n+1){
+    background-color: #f6f6f6;
+}
+.chart {
+    padding: 0 15px 0 34px;
+}
+.bg-white{
+    background-color: #ffffff;
 }
 
 
