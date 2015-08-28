@@ -337,8 +337,38 @@ ul.menu-item li {
     font-size: 20px;
     font-family: 'Varela', sans-serif;
     font-weight: 400;
-    padding-left: 14%;
+    padding-left: 11%;
     text-align: left;
+    width: 60%;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .about-us-block .textual {
+        padding-left: 15%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about-us-block .textual {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .about-us-block .textual {
+        padding-left: 9%;
+    }
+}
+
+.about-us-block .leverage {
+    width: 60%;
+    text-align: center;
+}
+
+.about-us-block .scale {
+    width: 70%;
+    text-align: center;
 }
 
 @media screen and (max-width: 900px) {
