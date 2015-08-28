@@ -376,6 +376,8 @@ a.center-block.text-center.user-status.small
 .header-logo{
     max-width: 100%;
     margin: auto;
+    float: left;
+
 }
 
 .welcome, .about {
@@ -400,6 +402,8 @@ a.center-block.text-center.user-status.small
     /*}*/
     .header-logo{
        margin-top: 10px;
+        margin-left: 5px;
+
     }
     .about{
         /*margin-right: 27px;*/
