@@ -112,7 +112,7 @@
     font-size: 14pt;
 }
 
-.panel-payment {
+.panel-campaigns {
     margin-bottom: 20px;
     background-color: #fff;
     border-left: 1px solid #ddd;
@@ -121,7 +121,7 @@
     border-radius: 0;
     /*-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);*/
     /*box-shadow: 0 1px 1px rgba(0,0,0,.05);*/
-    padding: 35px 20px 0px 20px;
+    padding: 20px 20px 0px 20px;
 }
 
 .status-circle {
@@ -380,8 +380,8 @@ only screen and (max-width: 460px) {
     .engagement_table > tbody > tr > td:nth-of-type(6):before { content: "Shares: ";  font-weight: bold; }
 }
 
-.content {
-    width: 100%;
-    margin: 5px 0 0 5px;
+.campaign-content {
+    min-height: 250px;
+    padding: 15px 20px;
 }
 
