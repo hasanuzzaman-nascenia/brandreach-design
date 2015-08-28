@@ -420,6 +420,8 @@ ul.menu-item li {
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
+    -webkit-filter: saturate(1.5);
+    filter: saturate(1.5);
 }
 
 .contact-form {
