@@ -18,15 +18,15 @@
     z-index: 800;
 }
 
-.form-control {
-    padding-right: 30px;
-    padding-left: 30px;
-}
+/*.form-control {*/
+    /*padding-right: 30px;*/
+    /*padding-left: 30px;*/
+/*}*/
 
 .form-control + .glyphicon {
     position: absolute;
     left: 0;
-    padding: 13px 10px;
+    padding: 13px 25px;
 }
 
 .btn-circle {
@@ -34,20 +34,20 @@
     width: 40px;
     height: 40px;
     /*line-height: 40px;*/
-
     background-color: #00AEEF;
     padding:0;
     border-radius: 50%;
     border: none;
-    margin: 0 3px;
+    /*margin: 0 3px;*/
 }
 .btn-circle:active{
     color: #000000;
 }
 
 .rounded-input-box{
-    border-radius: 20px !important ;
+    border-radius: 20px !important;
     height: 40px;
+    padding-left: 30px;
 }
 
 .info-box-custom {
@@ -240,8 +240,9 @@ hr {
     border-top: none;
 }
 .content {
-    width: 97%;
-    margin-top: 5px;
+    /*width: 97%;*/
+    margin:5px 10px ;
+    /*margin-top: 5px;*/
 }
 
 .filter-bar{
@@ -359,13 +360,52 @@ a.center-block.text-center.user-status.small
     box-shadow: 0px 1px 4px #dddddd;
 }
 
-.welcome, .about {
-    font-size: 13px;
-}
 
 .about-welcome {
-    margin-bottom: 0px;
+    margin-right: 15px;
+    max-width: 293px;
+    float: right;
 }
+.about-welcome:after{
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.header-logo{
+    max-width: 100%;
+    margin: auto;
+}
+
+.welcome, .about {
+    font-size: 13px;
+    display: inline-block;
+}
+.welcome{
+    margin-right: 16px;
+}
+.about{
+    margin-right: 25px;
+}
+.login-link{
+    display: inline-block;
+    /*float: right;*/
+    /*margin-right: 5px;*/
+}
+
+@media  (min-width: 768px){
+    /*.about-welcome{*/
+        /*margin-right: 30px;*/
+    /*}*/
+    .header-logo{
+        margin: 0;
+    }
+    .about{
+        /*margin-right: 27px;*/
+        /*margin-left: 10px;*/
+    }
+}
+
 
 #world-map-markers .jvectormap-zoomin {
     top:9%;
@@ -454,9 +494,9 @@ a.center-block.text-center.user-status.small
         padding-left: 5px;
     }
 
-    .btn-circle {
-        margin: 0;
-    }
+    /*.btn-circle {*/
+        /*margin: 0;*/
+    /*}*/
     .view-country {
         font-size: .7em;
     }
