@@ -610,5 +610,9 @@ th{
     max-width: 100%;
 }
 
+.statistic-table tbody tr td:nth-child(n+2) {
+    font-family: Hind, sans-serif;
+}
+
 
 
