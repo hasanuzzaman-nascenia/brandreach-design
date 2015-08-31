@@ -235,6 +235,21 @@ hr {
     content: '';
     padding-left: 0;
 }
+.icon-comment{
+    background: rgba(0, 0, 0, 0) url("../images/horn.png") no-repeat scroll 0 0;
+}
+
+.icon-love {
+    background: rgba(0, 0, 0, 0) url("../images/horn.png") no-repeat scroll 0 0;
+}
+
+.icon-love, .icon-comment {
+    content: "";
+    display: inline-block;
+    height: 12px;
+    padding-left: 0;
+    width: 19px;
+}
 
 /* font style  */
 
@@ -541,7 +556,7 @@ a.center-block.text-center.user-status.small
         box-sizing: border-box;
     }
     .view-country {
-        font-family: sans-serif;
+        /*font-family: sans-serif;*/
         font-size: .8em;
     }
 }
