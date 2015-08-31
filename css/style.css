@@ -88,12 +88,6 @@
     }
 }
 
-@media  (max-width: 1199px){
-    .info-box-content{
-        padding-left: 15%;
-    }
-}
-
 .info-box-text{
     padding: 0;
     margin: 0;
@@ -142,10 +136,11 @@
     width: 15px;
     height: 15px;
     display: inline-block;
-    margin: -2px 3px;
+    margin-right: 4px;
+    vertical-align: middle;
 }
 .bg-color-blue{
-    background: #4D97C2;
+    background: #a9e5ed;
 }
 .bg-color-pink{
     background: #EA358C;
@@ -210,11 +205,12 @@ hr {
     background-color: #2b2f3e;
     padding-top: 40px;
 }
-
+.skin-blue .sidebar-menu>li>a{
+    border-left: 0;
+}
 .skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a{
     color: #FFFFFF;
     background: #FF3059;
-    border-left-style: hidden;
 }
 
 /* footer style sheet */
@@ -264,10 +260,9 @@ hr {
 }
 
 .user-status{
-    border: 1px solid;
+    border: 1px solid #4f535e;
     border-radius: 15px;
-    padding: 2px 0;
-    width: 56%;
+    padding: 3px 6px;
     font-size: 11px;
     background-color: #2b2f3e;
 }
@@ -342,9 +337,10 @@ hr {
 }
 .box.box-info{
     border-top: 5px solid #00c0ef;
+    padding-bottom: 20px;
 }
 .color-gray{
-    color: #808080;
+    color: #7c8690;
 }
 .statistic-table tbody tr{
     width: 100%;
@@ -620,14 +616,14 @@ a.center-block.text-center.user-status.small
 
 .custom-drop-down-button{
     background-color: #ffffff;
-    border: 1px solid #808080;
+    border-color: #d2d2d2;
+    border-radius: 1px;
     color: #808080;
     font-size: 12px;
     font-weight: 400;
     height: 20px;
     line-height: 1;
-    padding: 0;
-    width: 91px;
+    padding: 0 14px;
 }
 .custom-drop-down-button:hover{
     background-color: #ffffff;
@@ -655,6 +651,7 @@ a.center-block.text-center.user-status.small
 
 .info .name{
     text-align: center;
+    font-size: 15px;
     font-weight: 400;
 }
 th{
@@ -681,6 +678,16 @@ th{
 .font-below-statistic{
     font-size: 12px;
     margin-top: 5px;
+    text-align: right;
+}
+
+.gender-stat-legend{
+    display: inline-block;
+    margin-left: 18px;
+}
+
+.gender-stat-legend .dropdown{
+    margin-left: 16px;
 }
 
 
