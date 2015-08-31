@@ -8,10 +8,11 @@
 
 }
 .header-content{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin-left: auto;
     margin-right: auto;
     min-height: 50px;
-    padding: 17px 15px 20px;
+    padding: 17px 15px 5px;
     background-color: #FFFFFF;
     font-family: 'Raleway', sans-serif;
     font-size: 13px;
@@ -28,14 +29,14 @@
 
 .form-control + .glyphicon {
     position: absolute;
-    left: 0;
-    padding: 12px 25px;
+    left: 28px;
+    top: 12px;
 }
 
 .btn-circle {
     color: white;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     /*line-height: 40px;*/
     background-color: #00AEEF;
     padding:0;
@@ -51,8 +52,13 @@
     border-radius: 20px !important;
     height: 36px;
     padding-left: 30px;
+    width: calc(100% - 45px);
 }
 
+.info-box-container{
+    margin-left: 0;
+    margin-right: 0;
+}
 .info-box-custom {
     background: #fff none repeat scroll 0 0;
     /*border-radius: 2px;*/
@@ -104,8 +110,7 @@
 }
 @media (min-width: 768px) {
     .info-box-data{
-
-        font-size: 48px;
+        font-size: 40px;
     }
     .info-box-text{
         font-size: 14px;
@@ -113,22 +118,22 @@
 }
 
 .total-follower-data-color{
-    color: #00AEEE;
+    color: #32ccff;
 
 }
 
 .page-view-data-color{
-    color: #fc5b91;
+    color: #fa5c8f;
 
 }
 
 .total-post-data-color{
-    color: #00ff00;
+    color: #99cd00;
 
 }
 
 .post-reach-data-color{
-    color: #eeee00;
+    color: #fecb34;
 }
 
 /* end info box style */
@@ -159,12 +164,13 @@
 
 .profile-image{
     width: 100px;
-    border: 1px solid;
+    border: 1px solid #474b56;
     margin-bottom: 15px;
+    margin-top: -17px;
     padding: 11px;
 }
 .profile-info{
-    width: 180px;
+    width: 186px;
     /*color: #b8c7ce;*/
 }
 .hr{
@@ -206,6 +212,7 @@ hr {
 
 .skin-blue .main-sidebar{
     background-color: #2b2f3e;
+    padding-top: 40px;
 }
 
 .skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a{
@@ -292,8 +299,11 @@ hr {
     /*width: 97%;*/
     margin: 5px 20px 0 20px;
     margin-top: 22px;
-    overflow: hidden;
     /*margin-top: 5px;*/
+}
+.br-container{
+    background-color: #fff;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .filter-bar{
@@ -301,6 +311,7 @@ hr {
     /*height: 50px;*/
     background-color: #E9EAED;
     margin-left: 0;
+    margin-right: 0;
 
 }
 .filter-item, .filter-item a{
@@ -415,7 +426,7 @@ a.center-block.text-center.user-status.small
 
 .about-welcome {
     margin-right: 16px;
-    max-width: 293px;
+    max-width: 300px;
     float: right;
     margin-bottom: -2px;
     font-weight: 500;
@@ -447,6 +458,8 @@ a.center-block.text-center.user-status.small
     display: inline-block;
     /*float: right;*/
     /*margin-right: 5px;*/
+    text-align: center;
+    width: 21px;
 }
 
 @media  (min-width: 768px){
@@ -465,7 +478,7 @@ a.center-block.text-center.user-status.small
 }
 @media  (min-width: 1000px) {
     .header-logo{
-        margin-top: -5px;
+        margin-top: -2px;
     }
 }
 
@@ -488,6 +501,9 @@ a.center-block.text-center.user-status.small
 
 .map-chart {
     background-color: white;
+}
+.map-chart .box{
+    box-shadow: none;
 }
 
 .chart #salesChart {
