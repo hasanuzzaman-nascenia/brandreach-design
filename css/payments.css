@@ -73,7 +73,9 @@
 }
 
 .transaction-table {
-    padding-left: 8px;
+    font-size: 14px;
+    padding-left: 12px;
+    vertical-align: middle;
 }
 
 .glyphicon-credit-card {
