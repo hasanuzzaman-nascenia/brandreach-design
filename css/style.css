@@ -253,9 +253,10 @@ hr {
 .box{
     border-top: none;
 }
-.content {
+.influence-facebook-content {
     /*width: 97%;*/
-    margin: 5px 14px 0 19px;
+    margin: 5px 20px 0 20px;
+    overflow: hidden;
     /*margin-top: 5px;*/
 }
 
@@ -263,6 +264,7 @@ hr {
     margin-bottom: 9px;
     /*height: 50px;*/
     background-color: #E9EAED;
+    margin-left: 0;
 
 }
 .filter-item, .filter-item a{
@@ -376,7 +378,7 @@ a.center-block.text-center.user-status.small
 
 
 .about-welcome {
-    margin-right: 15px;
+    margin-right: 16px;
     max-width: 293px;
     float: right;
     margin-bottom: -2px;
@@ -477,6 +479,15 @@ a.center-block.text-center.user-status.small
     font-weight: 600;
     margin-bottom: 25px;
 }
+.stat-country, .box.box-info{
+    /*width: 95%;*/
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.box{
+    margin-bottom: 0;
+    width: auto;
+}
 
 .box .box-body {
     padding: 0;
@@ -565,6 +576,13 @@ a.center-block.text-center.user-status.small
 }
 .bg-white{
     background-color: #ffffff;
+    overflow: hidden;
+    margin-bottom: 28px;
+}
+
+.info .name{
+    text-align: center;
+    font-weight: 400;
 }
 
 
