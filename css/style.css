@@ -67,6 +67,7 @@
     padding: 5px 0;
     text-align: center;
     border-right: 1px solid #e4e7ec;
+    font-family: 'Hind Regular', sans-serif;
 }
 
 .right-border{
@@ -98,6 +99,7 @@
     padding: 0;
     margin: 0;
     font-size: 48px;
+    font-family: 'Varela', sans-serif;
 }
 
 .total-follower-data-color{
