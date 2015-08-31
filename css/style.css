@@ -624,5 +624,9 @@ th{
     font-family: Hind, sans-serif;
 }
 
+.statistic-table tbody tr:nth-child(1) {
+    font-family: Raleway, sans-serif;
+}
+
 
 
