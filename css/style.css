@@ -1,3 +1,6 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
 
 .skin-blue .wrapper{
     /*overflow: visible !important;*/
@@ -393,7 +396,7 @@ a.center-block.text-center.user-status.small
 .header-logo{
     max-width: 100%;
     margin: auto;
-    float: left;
+    /*float: left;*/
 
 }
 
@@ -481,8 +484,15 @@ a.center-block.text-center.user-status.small
 }
 .stat-country, .box.box-info{
     /*width: 95%;*/
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 0;
+    margin-left: 0;
+}
+@media  (min-width: 768px){
+    .stat-country, .box.box-info{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
 }
 .box{
     margin-bottom: 0;
@@ -498,9 +508,9 @@ a.center-block.text-center.user-status.small
     font-family: 'Raleway', sans-serif;
     font-size: 12px;
     padding: 0;
-    font-weight: 500;
+    font-weight: 400;
     background-color: white;
-    width: 100%;
+    width: 70%;
     text-align: left;
 }
 
@@ -584,5 +594,19 @@ a.center-block.text-center.user-status.small
     text-align: center;
     font-weight: 400;
 }
+th{
+    font-weight: 400;
+}
+.custom-dropdown-menu > li > a, .drop-down-label{
+    font-size: 13px;
+    font-weight: 400;
+}
+.drop-down-label{
+    display: inline;
+    width: 30%;
+    margin-bottom: 5px;
+    max-width: 100%;
+}
+
 
 
