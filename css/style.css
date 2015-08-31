@@ -366,6 +366,7 @@ a.center-block.text-center.user-status.small
     max-width: 293px;
     float: right;
     margin-bottom: -2px;
+    font-weight: 500;
 }
 .about-welcome:after{
     clear: both;
