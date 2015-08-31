@@ -221,7 +221,11 @@ hr {
     font-size: 12px;
     margin-left: 0;
     border-top: none;
+}
+
+.main-footer .footer-content{
     font-family: 'Hind', sans-serif;
+
 }
 .icon-horn {
     background: url("../images/horn.png") no-repeat;
@@ -271,12 +275,13 @@ hr {
 .influence-facebook-content {
     /*width: 97%;*/
     margin: 5px 20px 0 20px;
+    margin-top: 22px;
     overflow: hidden;
     /*margin-top: 5px;*/
 }
 
 .filter-bar{
-    margin-bottom: 9px;
+    margin-bottom: 22px;
     /*height: 50px;*/
     background-color: #E9EAED;
     margin-left: 0;
