@@ -192,11 +192,7 @@ hr {
     color: #808080;
     padding-top: 20px;
 }
-@media (max-width: 500px) {
-    .chart-info {
-        padding-left: 2%;
-    }
-}
+
 
 /* side bar style */
 
@@ -244,11 +240,11 @@ hr {
     padding-left: 0;
 }
 .icon-comment{
-    background: rgba(0, 0, 0, 0) url("../images/horn.png") no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("../images/post-reach.png") no-repeat scroll 0 0;
 }
 
 .icon-love {
-    background: rgba(0, 0, 0, 0) url("../images/horn.png") no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("../images/Followers.png") no-repeat scroll 0 0;
 }
 
 .icon-love, .icon-comment {
@@ -358,6 +354,9 @@ hr {
 }
 .statistic-table thead tr th:first-child{
     padding-left: 12px;
+}
+.statistic-table tbody tr td{
+    font-size: 13px;
 }
 
 select.country-drop-down{
@@ -602,7 +601,7 @@ a.center-block.text-center.user-status.small
         /*margin: 0;*/
     /*}*/
     .view-country {
-        font-size: .7em;
+        /*font-size: .7em;*/
     }
 }
 
