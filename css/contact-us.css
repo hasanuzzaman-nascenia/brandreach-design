@@ -27,6 +27,7 @@
 .category-name, .message-name {
     vertical-align: top;
     margin-right: 16px;
+    padding-top: 3px;
 }
 
 .category-list {
