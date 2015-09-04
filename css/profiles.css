@@ -1,0 +1,65 @@
+.display-inline{
+    display: inline-block;
+}
+
+.profile-page-border {
+    border-radius: 3px;
+    border: 1px solid #dddddd ;
+    box-shadow: 0px 1px 1px #dddddd;
+    margin: 25px 20px;
+    background-color: #FFFFFF;
+    color: #797979;
+}
+
+.title-text {
+    color: #ff305a;
+    font-weight: 600;
+}
+
+.personal-info {
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+.account-setup, .professional-info, .social-account {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+.profile-left-side, .profile-right-side, .account-left-side, .account-right-side{
+    text-align: right;
+}
+
+.text-box-width{
+    width: 200px;
+}
+
+.text-area-width {
+    width: 68%;
+}
+
+.profile-dropdown-color {
+    background-color: #FFFFFF;
+}
+
+.profile-left-side label, .profile-right-side label {
+    padding-right: 15px;
+    padding-top: 10px;
+    vertical-align: top;
+}
+
+.account-left-side label, .account-right-side label {
+    padding-right: 15px;
+    padding-top: 10px;
+    vertical-align: top;
+}
+
+.profile-left-side input, .profile-left-side textarea, .profile-right-side input, .profile-right-side select, .account-left-side input, .account-right-side input {
+    margin-top: 5px;
+    padding: 3px;
+}
+
+.profile-left-side textarea {
+    resize: none;
+}
