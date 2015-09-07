@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <title>Profile</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css" />
-    <link href="plugins/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
-    <link href="dist/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css" />
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"
+          type="text/css"/>
+    <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css"/>
+    <link href="plugins/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css"/>
+    <link href="dist/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css"/>
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <link href="css/profiles.css" rel="stylesheet" type="text/css"/>
     <link href="flag-icon/css/flag-icon.min.css" rel="stylesheet" type="text/css"/>
@@ -31,10 +32,13 @@
             <div class="center-block profile-info">
                 <a href="javascript:void(0)"><span class="fa fa-camera camera"></span></a>
                 <img src="dist/img/user2-160x160.jpg" class="img-circle profile-image center-block" alt="User Image"/>
+
                 <div class="info">
                     <p class="name">Bhanu Prasad Madala </p>
+
                     <div class="dropdown small">
-                        <button class="btn center-block text-center user-status dropdown-toggle" type="button" data-toggle="dropdown"><i class="fa fa-circle text-color-follower"></i>&nbsp; Available
+                        <button class="btn center-block text-center user-status dropdown-toggle" type="button"
+                                data-toggle="dropdown"><i class="fa fa-circle text-color-follower"></i>&nbsp; Available
                             <i class="fa fa-angle-down "></i>
                         </button>
                         <ul class="dropdown-menu user-status ">
@@ -76,7 +80,7 @@
                         <i class="fa fa-dollar"></i><span class="space-sidebar">PAYMENTS</span>
                     </a>
                 </li>
-                <li>
+                <li >
                     <a href="#">
                         <i class="fa fa-phone"></i><span class="space-sidebar">CONTACT US</span>
                     </a>
@@ -95,9 +99,10 @@
             <div class="row">
                 <div class="about-welcome">
                     <p class=" about">ABOUT</p>
+
                     <p class=" welcome"> Welcome back, Bhanu Prasad!</p>
                     <a href="javascript:void(0);" class="login-link">
-                        <p class="text-black text-center"><i class="fa fa-power-off"></i> </p>
+                        <p class="text-black text-center"><i class="fa fa-power-off"></i></p>
                     </a>
                 </div>
             </div>
@@ -120,135 +125,129 @@
 
         <div class="header-bottom-margin"></div>
 
-        <div class="profile-page">
-            <div class="profile-page-border">
+        <!-- main content -->
+        <div class="brands-profile-page-wrapper">
+            <img src="dist/img/user2-160x160.jpg" class="profile-picture">
+            <h4 class="personal-info">PERSONAL INFORMATION</h4>
 
-                <div class="row personal-info">
-                    <span class="title-text">PERSONAL INFORMATION</span>
-                </div>
-
-                <div class="row">
-
-                    <div class="profile-left-side col-lg-6">
-
-                        <div class="first-name">
-                            <label for="first_name" class="">First Name</label>
-                            <input type="text" class="text-box-width" id="first_name"/>
-                        </div>
-                        <div class="company-name">
-                            <label for="company_name">Company Name</label>
-                            <input type="text" class="text-box-width" id="company_name"/>
-                        </div>
-                        <div class="indust">
-                            <label for="industry">Industry</label>
-                            <input type="text" class="text-box-width" id="industry"/>
-                        </div>
-                        <div class="street-address">
-                            <label for="street" class="">Street Address</label>
-                            <textarea class="text-box-width" id="street" rows="4"></textarea>
-                        </div>
-                        <div class="zip-code">
-                            <label for="zip">Zipcode</label>
-                            <input type="text" class="text-box-width" id="zip"/>
-                        </div>
-
+            <form action="" class="form-horizontal personal-info-form">
+                <div class="form-group">
+                    <div class="col-md-6">
+                        <label for="first_name" class="control-label">First Name</label>
+                        <input type="text" class="" name="first_name" id="first_name"/>
                     </div>
-
-                    <div class="profile-right-side col-lg-5">
-
-                        <div class="last-name">
-                            <label for="last_name" class="">Last Name</label>
-                            <input type="text" class="text-box-width" id="last_name"/>
-                        </div>
-                        <div class="company-email">
-                            <label for="company_email">Company Email</label>
-                            <input type="email" class="text-box-width" id="company_email"/>
-                        </div>
-                        <div class="phone-number">
-                            <label for="phone">Phone</label>
-                            <input type="text" class="text-box-width" id="phone"/>
-                        </div>
-                        <div class="land-mark">
-                            <label for="land_mark" class="">Landmark</label>
-                            <input type="text" class="text-box-width" id="land_mark">
-                        </div>
-                        <div class="city-name">
-                            <label for="city">City</label>
-                            <input type="text" class="text-box-width" id="city"/>
-                        </div>
-                        <div class="state-name">
-                            <label for="state">State</label>
-                            <select class="text-box-width profile-dropdown-color" id="state">
-                                <option>State 1</option>
-                                <option>State 2</option>
-                                <option>State 3</option>
-                            </select>
-                        </div>
-                        <div class="country-name">
-                            <label for="country">Country</label>
-                            <select class="text-box-width profile-dropdown-color" id="country">
-                                <option>Country 1</option>
-                                <option>Country 2</option>
-                                <option>Country 3</option>
-                            </select>
-                        </div>
-
+                    <div class="col-md-6">
+                        <label for="last_name" class="control-label">Last Name</label>
+                        <input type="text" class="" name="first_name" id="last_name"/>
                     </div>
                 </div>
 
-                <div class="row account-setup">
-                    <span class="title-text">ACCOUNT SETUP</span>
-                </div>
-
-                <div class="row">
-
-                    <div class="account-left-side col-lg-6">
-                        <div class="old-pass">
-                            <label for="old_password" class="">Old Password</label>
-                            <input type="password" class="text-box-width" id="old_password"/>
-                        </div>
-                        <div class="new-pass">
-                            <label for="new_password" class="">New Password</label>
-                            <input type="password" class="text-box-width" id="new_password"/>
-                        </div>
+                <div class="form-group">
+                    <div class="col-md-6">
+                        <label for="company_name">Company Name</label>
+                        <input type="text" class="" id="company_name" name="company_name"/>
                     </div>
-
-                    <div class="account-right-side col-lg-5">
-                        <div class="empty">
-                            <label class="">&nbsp;</label>
-                        </div>
-                        <div class="re-pass">
-                            <label for="retype_password" class="">Retype Password</label>
-                            <input type="password" class="text-box-width" id="retype_password"/>
-                        </div>
+                    <div class="col-md-6">
+                        <label for="company_email">Company Email</label>
+                        <input type="email" class="" id="company_email" name="company_email"/>
                     </div>
                 </div>
 
-                <div class="row professional-info">
-                    <span class="title-text">PROFESSIONAL INFORMATION</span>
-                </div>
-
-                <div class="row">
-                    <div class="account-left-side col-lg-11">
-                        <div class="short-bio">
-                            <label for="short_bio" class="">Short Bio</label>
-                            <textarea class="text-area-width" id="short_bio" rows="6"></textarea>
-                        </div>
+                <div class="form-group">
+                    <div class="col-md-6">
+                        <label for="industry">Industry</label>
+                        <input type="text" class="" id="industry"/>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="phone">Phone</label>
+                        <input type="text" class="" id="phone"/>
                     </div>
                 </div>
 
-                <div class="row social-account">
-                    <span class="title-text">SOCIAL ACCOUNTS AND PRICING</span>
+                <div class="form-group">
+                    <div class="col-md-6">
+                        <label for="country">Country</label>
+                        <select class=" profile-dropdown-color" id="country">
+                            <option>Country 1</option>
+                            <option>Country 2</option>
+                            <option>Country 3</option>
+                        </select>
+
+                    </div>
+                    <div class="col-md-6">
+                        <label for="state">State</label>
+                        <select class=" profile-dropdown-color" id="state">
+                            <option>State 1</option>
+                            <option>State 2</option>
+                            <option>State 3</option>
+                        </select>
+                    </div>
                 </div>
 
+                <div class="form-group">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label for="city">City</label>
+                                <input type="text" class="" id="city"/>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="zip">Zipcode</label>
+                                <input type="text" class="" id="zip"/>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="land_mark" class="">Landmark</label>
+                                <input type="text" class="" id="land_mark">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="street" class="textarea-label">Street Address</label>
+                        <textarea class="" id="street" rows="4"></textarea>
+                    </div>
+                </div>
 
-            </div>
+                <h4 class="account-setup">ACCOUNT SETUP</h4>
+
+                <div class="form-group">
+                    <div class="col-md-6">
+                        <label for="old_password" class="">Old Password</label>
+                        <input type="password" class="" id="old_password"/>
+                    </div>
+                    <div class="col-md-6">
+
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-6">
+                        <label for="new_password" class="">New Password</label>
+                        <input type="password" class="" id="new_password"/>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="retype_password" class="">Retype Password</label>
+                        <input type="password" class="" id="retype_password"/>
+                    </div>
+                </div>
+
+                <h4 class="professional-info">PROFESSIONAL INFORMATION</h4>
+
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <label for="short_bio" class="textarea-label">Short Bio</label>
+                        <textarea class="short_bio" id="short_bio" rows="6"></textarea>
+                    </div>
+                </div>
+
+            </form> <!-- end of form-->
         </div>
-
+        <!-- end of main content -->
+        <button class="btn btn-update" type="submit">UPDATE</button>
 
     </div>
 
-</div><!-- /.content-wrapper -->
+</div>
+<!-- /.content-wrapper -->
 <footer class="main-footer">
     <div class="text-center footer-content">
         All Rights Reserved <span class="rights-reserved">&reg;</span> Brand Reach | Copyright 2015

@@ -1,65 +1,129 @@
-.display-inline{
+.brands-profile-page-wrapper {
+    font-family: "Raleway", sans-serif;
+    margin: 20px 10px;
+    background-color: rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0 0 2px #999999;
+    -moz-box-shadow: 0 0 2px #999999;
+    box-shadow: 0 0 2px #999999;
+    padding: 25px 4% 25px;
+
+}
+
+@media (min-width: 768px) {
+    .brands-profile-page-wrapper {
+        padding-right: 5%;
+        margin: 20px;
+    }
+}
+
+.display-inline {
     display: inline-block;
 }
 
-.profile-page-border {
-    border-radius: 3px;
-    border: 1px solid #dddddd ;
-    box-shadow: 0px 1px 1px #dddddd;
-    margin: 25px 20px;
-    background-color: #FFFFFF;
-    color: #797979;
+/*.profile-page-border {*/
+    /*border-radius: 3px;*/
+    /*border: 1px solid #dddddd;*/
+    /*box-shadow: 0px 1px 1px #dddddd;*/
+    /*margin: 25px 20px;*/
+    /*background-color: #FFFFFF;*/
+    /*color: #797979;*/
+/*}*/
+
+.brands-profile-page-wrapper label {
+    padding-right: 15px;
+    font-size: 13px;
+    font-weight: 400;
 }
 
-.title-text {
+.personal-info-form .form-group {
+    text-align: right;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.brands-profile-page-wrapper input, .brands-profile-page-wrapper select {
+    line-height: 1;
+    height: 30px;
+    border-radius: 0;
+    border: 1px solid #d9d9d9;
+    margin-bottom: 10px;
+}
+
+.personal-info-form .form-group textarea {
+    resize: none;
+    height: 110px;
+}
+
+.brands-profile-page-wrapper input, .brands-profile-page-wrapper select, .personal-info-form .form-group textarea {
+    width: 52%;
+}
+.personal-info-form .form-group textarea.short_bio{
+    width: 70%;
+}
+
+.personal-info-form .form-group .textarea-label {
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+.account-setup, .professional-info, .personal-info {
+    margin-bottom: 45px;
+    margin-top: 45px;
+    text-align: center;
     color: #ff305a;
     font-weight: 600;
+    font-size: 16px;
 }
 
 .personal-info {
-    padding-bottom: 45px;
-    text-align: center;
+    margin-top: 30px;
 }
 
-.account-setup, .professional-info, .social-account {
-    padding-top: 45px;
-    padding-bottom: 45px;
-    text-align: center;
+
+.profile-picture {
+    border-radius: 50%;
+    border: 7px solid #30bfd0;
+    display: block;
+    margin: 0 auto;
 }
 
-.profile-left-side, .profile-right-side, .account-left-side, .account-right-side{
-    text-align: right;
+.btn-update {
+    background-color: #f8c102;
+    width: 130px;
+    height: 32px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 11pt;
+    font-weight: 600;
+    margin: 25px 20px 77px;
+    padding: 5px 30px;
 }
 
-.text-box-width{
-    width: 200px;
+/* ============== page responsive stylesheet ================= */
+
+/* style for making compatible with 320 to 767 px devices */
+@media (min-width: 768px) {
+    .brands-profile-page-wrapper input, .brands-profile-page-wrapper select, .personal-info-form .form-group textarea {
+        width: 65%;
+    }
+
+    .personal-info-form .form-group textarea.short_bio{
+        width: 80%;
+    }
+
+    /*.personal-info-form .form-group textarea{*/
+    /*width: 53%;*/
+    /*}*/
 }
 
-.text-area-width {
-    width: 68%;
+/* style for making compatible with 992 to 1200 px devices */
+@media (min-width: 992px) {
+    .personal-info-form .form-group textarea.short_bio{
+        width: 83%;
+    }
 }
 
-.profile-dropdown-color {
-    background-color: #FFFFFF;
-}
+/* style for making compatible with 1200 px to upper devices */
+@media (min-width: 1200px) {
 
-.profile-left-side label, .profile-right-side label {
-    padding-right: 15px;
-    padding-top: 10px;
-    vertical-align: top;
-}
-
-.account-left-side label, .account-right-side label {
-    padding-right: 15px;
-    padding-top: 10px;
-    vertical-align: top;
-}
-
-.profile-left-side input, .profile-left-side textarea, .profile-right-side input, .profile-right-side select, .account-left-side input, .account-right-side input {
-    margin-top: 5px;
-    padding: 3px;
-}
-
-.profile-left-side textarea {
-    resize: none;
 }
