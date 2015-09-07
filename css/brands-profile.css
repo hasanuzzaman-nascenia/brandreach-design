@@ -66,6 +66,10 @@
     padding-top: 10px;
 }
 
+.street-address-textarea {
+    padding: 5px 0 0 5px;
+}
+
 .account-setup, .company-info, .personal-info {
     margin-bottom: 45px;
     margin-top: 45px;
