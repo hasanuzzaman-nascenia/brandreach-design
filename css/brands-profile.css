@@ -12,7 +12,7 @@
 @media (min-width: 768px) {
     .brands-profile-page-wrapper {
         padding-right: 5%;
-        margin: 20px;
+        margin: 25px 20px;
     }
 }
 
@@ -66,7 +66,7 @@
     padding-top: 10px;
 }
 
-.account-setup, .professional-info, .personal-info {
+.account-setup, .company-info, .personal-info {
     margin-bottom: 45px;
     margin-top: 45px;
     text-align: center;
@@ -95,8 +95,16 @@
     font-family: "Raleway", sans-serif;
     font-size: 11pt;
     font-weight: 600;
-    margin: 25px 20px 77px;
+    margin: 0px 20px 77px;
     padding: 5px 30px;
+}
+
+.profile-dropdown-color {
+    background-color: white;
+}
+
+.personal-info-form .short-bio-row {
+    margin-bottom: 50px;
 }
 
 /* ============== page responsive stylesheet ================= */
