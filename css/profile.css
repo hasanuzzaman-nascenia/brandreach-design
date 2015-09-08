@@ -6,6 +6,7 @@
     -moz-box-shadow: 0 0 2px #999999;
     box-shadow: 0 0 2px #999999;
     padding: 25px 4% 25px;
+    overflow: hidden;
 
 }
 
@@ -70,9 +71,18 @@
     padding: 5px 0 0 5px;
 }
 
-.account-setup, .company-info, .personal-info {
+.account-setup, .company-info, .personal-info  {
     margin-bottom: 45px;
     margin-top: 45px;
+    text-align: center;
+    color: #ff305a;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.social-account {
+    margin-bottom: 30px;
+    margin-top: 40px;
     text-align: center;
     color: #ff305a;
     font-weight: 600;
@@ -93,7 +103,6 @@
 
 .btn-update {
     background-color: #f8c102;
-    width: 130px;
     height: 32px;
     color: white;
     font-family: "Raleway", sans-serif;
@@ -103,12 +112,37 @@
     padding: 5px 30px;
 }
 
+.btn-account {
+    background-color: #f8c102;
+    height: 32px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    float: right;
+    padding: 5px 15px;
+}
+
 .profile-dropdown-color {
     background-color: white;
 }
 
 .personal-info-form .short-bio-row {
     margin-bottom: 50px;
+}
+
+.brands-profile-page-wrapper .personal-info-form input, .brands-profile-page-wrapper .personal-info-form textarea {
+    padding-left: 5px;
+}
+
+.social-account-tab-content {
+    border: 1px solid #ddd ;
+    border-top: none;
+    padding-top: 35px;
+}
+
+.social-account-tabs {
+    padding-top: 30px;
 }
 
 /* ============== page responsive stylesheet ================= */

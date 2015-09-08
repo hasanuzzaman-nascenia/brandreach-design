@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Brands Profile</title>
+    <title>Influencers Profile</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"
@@ -230,12 +230,65 @@
                     </div>
                 </div>
 
-                <h4 class="company-info">COMPANY INFORMATION</h4>
+                <h4 class="company-info">PROFESSIONAL INFORMATION</h4>
 
                 <div class="form-group short-bio-row">
                     <div class="col-md-12">
                         <label for="short_bio" class="textarea-label">Short Bio</label>
                         <textarea class="short_bio" id="short_bio" rows="6"></textarea>
+                    </div>
+                </div>
+
+                <h4 class="social-account">SOCIAL ACCOUNTS AND PRICING</h4>
+
+                <button class="btn btn-account" type="submit"><i class="fa fa-plus"></i> ADD ACCOUNT</button>
+
+                <div class="social-account-tabs">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#fb_bhanu"><i class="fa fa-facebook"></i> Bhanu Prasad</a></li>
+                        <li><a data-toggle="tab" href="#nirvana"><i class="fa fa-facebook"></i> NirvanaLabs</a></li>
+                        <li><a data-toggle="tab" href="#twitter_bhanu"><i class="fa fa-twitter"></i> Bhanu Prasad</a></li>
+                    </ul>
+
+                    <div class="tab-content social-account-tab-content">
+                        <div id="fb_bhanu" class="tab-pane fade in active">
+                            <div class="form-group">
+                                <div class="col-md-6">
+                                    <label for="status_update">Status Update</label>$
+                                    <input type="text" class="" id="status_update"/> USD
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="banner_photo">Banner Photo</label>$
+                                    <input type="text" class="" id="banner_photo"/> USD
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-6">
+                                    <label for="profile_photo">Profile Photo</label>$
+                                    <input type="text" class="" id="profile_photo"/> USD
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-6">
+                                    <label for="Checkin">Checkin</label>$
+                                    <input type="text" class="" id="Checkin"/> USD
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-6">
+                                    <label for="like">Like</label>$
+                                    <input type="text" class="" id="like"/> USD
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="nirvana" class="tab-pane fade">
+                            <p>Some content in Nirvana Tab</p>
+                        </div>
+
+                        <div id="twitter_bhanu" class="tab-pane fade">
+                            <p>Some content Twitter Page</p>
+                        </div>
                     </div>
                 </div>
 
