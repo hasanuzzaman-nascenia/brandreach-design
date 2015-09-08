@@ -139,10 +139,25 @@
     border: 1px solid #ddd ;
     border-top: none;
     padding-top: 35px;
+    padding-right: 30px;
+
 }
 
 .social-account-tabs {
     padding-top: 30px;
+
+}
+.social-account-tabs .social-account-nav-tabs a {
+    color: #696969;
+}
+
+.social-account-tabs .social-account-nav-tabs li:active a{
+    color: #3c8dbc;
+}
+
+.social-account-fa-edit {
+    font-size: 1.5em;
+    padding-right: 5px;
 }
 
 /* ============== page responsive stylesheet ================= */
@@ -172,4 +187,8 @@
 /* style for making compatible with 1200 px to upper devices */
 @media (min-width: 1200px) {
 
+}
+
+.social-account-tab-content .form-group input {
+    width: 33%;
 }
