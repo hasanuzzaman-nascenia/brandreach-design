@@ -1,0 +1,38 @@
+.brands-explore-content-wrapper{
+
+}
+
+.brands-explore-advance-search{
+    background-color: #FFFFFF;
+    padding: 5px;
+}
+
+.brands-explore-advance-search select{
+    width: 100%;
+    display: block;
+    height: 30px;
+    border-radius: 0;
+    border: 1px solid #d9d9d9;
+    background-color: #FFFFFF;
+}
+
+.brands-explore-content-wrapper hr{
+    height: 2px;
+    background-color: #ff3059;
+    margin-top: 0;
+}
+.search-result .row{
+    margin-right: -2px;
+    margin-left: 0;
+}
+
+.padding-less-column-parent > [class *='col-']{
+    padding-left: 0;
+    padding-right: 4px;
+}
+
+.search-result-item{
+    box-shadow: 0 0 1px #d9d9d9;
+    background-color: #FFFFFF;
+    padding: 5px;
+}
